@@ -499,4 +499,146 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+#cards {
+  background-color: white;
+  margin-top: 30px;
+  border: 1px solid rgb(235, 233, 233);
+  width: 1320px;
+  margin-left: 100px;
+}
+#cards .card1 {
+  width: 300px;
+  height: 130px;
+  display: flex;
+}
+#cards .card1 .icon1 {
+  margin-top: 35px;
+  font-size: 35px;
+  margin-left: 20px;
+  color: #EF6C00;
+}
+#cards .card1 .bonus-get {
+  margin-top: 33px;
+  margin-left: 10px;
+}
+#cards .card1 .bonus-get .bonus {
+  margin-bottom: -7px;
+}
+#cards .card1 .bonus-get .bonus span {
+  font-size: 13px;
+  font-weight: bolder;
+}
+#cards .card1 .bonus-get .get {
+  margin-top: 5px;
+}
+#cards .card1 .bonus-get .get .span1 {
+  margin-bottom: -5px;
+  font-size: 11px;
+}
+#cards .card1 .bonus-get .get .span1 span {
+  font-weight: 500;
+  color: rgb(98, 96, 96);
+}
+#cards .card1 .bonus-get .get .span2 {
+  font-size: 11px;
+}
+#cards .card1 .bonus-get .get .span2 span {
+  font-weight: 500;
+  color: rgb(98, 96, 96);
+}
+#cards .card1 .line1 {
+  border: 1px solid rgb(235, 233, 233);
+  height: 100px;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+#cards .card2 {
+  width: 300px;
+  height: 130px;
+  display: flex;
+}
+#cards .card2 .icon2 {
+  margin-top: 35px;
+  font-size: 35px;
+  margin-left: 20px;
+  color: #EF6C00;
+}
+#cards .card2 .shipping-free {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+#cards .card2 .shipping-free .shipping {
+  font-size: 13px;
+  font-weight: bolder;
+}
+#cards .card2 .shipping-free .free .span1 span {
+  font-size: 11px;
+  font-weight: 500;
+  color: rgb(98, 96, 96);
+}
+#cards .line2 {
+  border: 1px solid rgb(235, 233, 233);
+  height: 100px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+#cards .card3 {
+  width: 300px;
+  height: 130px;
+  display: flex;
+}
+#cards .card3 .icon3 {
+  margin-top: 35px;
+  font-size: 35px;
+  margin-left: 20px;
+  color: #EF6C00;
+}
+#cards .card3 .money-back {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+#cards .card3 .money-back .money {
+  font-size: 13px;
+  font-weight: bolder;
+}
+#cards .card3 .money-back .back .span1 span {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(98, 96, 96);
+}
+#cards .line3 {
+  border: 1px solid rgb(235, 233, 233);
+  height: 100px;
+  margin-top: 15px;
+  margin-left: 45px;
+}
+#cards .card4 {
+  width: 300px;
+  height: 130px;
+  display: flex;
+}
+#cards .card4 .icon4 {
+  margin-top: 35px;
+  font-size: 35px;
+  margin-left: 20px;
+  color: #EF6C00;
+}
+#cards .card4 .online-call {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+#cards .card4 .online-call .online {
+  font-size: 13px;
+  font-weight: bolder;
+}
+#cards .card4 .online-call .call .span1 span {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(98, 96, 96);
+}
+
+body {
+  height: 3000px;
 }/*# sourceMappingURL=home.css.map */

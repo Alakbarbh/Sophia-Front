@@ -754,7 +754,203 @@
 
 
 
-#cards{
+#cards {
+    background-color: white;
+    margin-top: 30px;
+    border: 1px solid rgb(235, 233, 233);
+    width: 1320px;
+    margin-left: 100px;
+
+    .card1 {
+        width: 300px;
+        height: 130px;
+
+        display: flex;
+
+        .icon1 {
+            margin-top: 35px;
+            font-size: 35px;
+            margin-left: 20px;
+            color: #EF6C00;
+        }
+
+        .bonus-get {
+            margin-top: 33px;
+            margin-left: 10px;
+
+            .bonus {
+                margin-bottom: -7px;
+
+                span {
+                    font-size: 13px;
+                    font-weight: bolder;
+                }
+            }
+
+            .get {
+
+                margin-top: 5px;
+
+                .span1 {
+                    margin-bottom: -5px;
+                    font-size: 11px;
+
+                    span {
+                        font-weight: 500;
+                        color: rgb(98, 96, 96);
+                    }
+                }
+
+                .span2 {
+                    font-size: 11px;
+
+                    span {
+                        font-weight: 500;
+                        color: rgb(98, 96, 96);
+                    }
+                }
+            }
+        }
+        .line1{
+            border: 1px solid rgb(235, 233, 233);
+            height: 100px;
+            margin-top: 15px;
+            margin-left: 25px;
+        }
+    }
+
     
+
+
+
+    .card2 {
+        width: 300px;
+        height: 130px;
+
+        display: flex;
+
+        .icon2 {
+            margin-top: 35px;
+            font-size: 35px;
+            margin-left: 20px;
+            color: #EF6C00;
+        }
+
+        .shipping-free {
+            margin-top: 40px;
+            margin-left: 10px;
+
+            .shipping {
+                font-size: 13px;
+                font-weight: bolder;
+            }
+
+            .free {
+
+                .span1 {
+
+                    span {
+                        font-size: 11px;
+                        font-weight: 500;
+                        color: rgb(98, 96, 96);
+                    }
+                }
+            }
+        }
+    }
+
+    .line2{
+        border: 1px solid rgb(235, 233, 233);
+        height: 100px;
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+
+
+    .card3 {
+        width: 300px;
+        height: 130px;
+        display: flex;
+
+        .icon3 {
+            margin-top: 35px;
+            font-size: 35px;
+            margin-left: 20px;
+            color: #EF6C00;
+        }
+
+        .money-back {
+            margin-top: 40px;
+            margin-left: 10px;
+
+            .money {
+                font-size: 13px;
+                font-weight: bolder;
+
+                span {}
+            }
+
+            .back {
+
+                .span1 {
+
+                    span {
+                        font-size: 12px;
+                        font-weight: 500;
+                        color: rgb(98, 96, 96);
+                    }
+                }
+            }
+        }
+    }
+
+    .line3{
+        border: 1px solid rgb(235, 233, 233);
+        height: 100px;
+        margin-top: 15px;
+        margin-left: 45px;
+    }
+
+
+    .card4{
+        width: 300px;
+        height: 130px;
+        display: flex;
+        .icon4{
+
+            margin-top: 35px;
+            font-size: 35px;
+            margin-left: 20px;
+            color: #EF6C00;
+        }
+
+        .online-call{
+            margin-top: 40px;
+            margin-left: 10px;
+            .online{
+                font-size: 13px;
+                font-weight: bolder;
+                span{
+
+
+                }
+            }
+
+            .call{
+                .span1{
+
+                    span{
+
+                        font-size: 12px;
+                        font-weight: 500;
+                        color: rgb(98, 96, 96);
+                    }
+                }
+            }
+        }
+    }
 }
 
+body {
+    height: 3000px;
+}
