@@ -639,10 +639,6 @@
   color: rgb(98, 96, 96);
 }
 
-body {
-  height: 3100px;
-}
-
 #slider-product {
   margin-top: 150px;
 }
@@ -1645,4 +1641,141 @@ body {
 #featured-product .carts .img-text .texts .text2 p {
   margin-left: 10px;
   margin-top: 5px;
+}
+
+#footer .sophia {
+  background-color: #F7F7F7;
+  width: 100%;
+  height: 400px;
+  margin-top: 50px;
+}
+#footer .sophia .general {
+  display: flex;
+  margin-left: 100px;
+}
+#footer .sophia .general .logo-text {
+  margin-top: 70px;
+}
+#footer .sophia .general .logo-text .text1 {
+  font-size: 17px;
+  margin-top: 10px;
+}
+#footer .sophia .general .logo-text .text1 p {
+  margin-bottom: -1px;
+}
+#footer .sophia .general .logo-text .text1 p:nth-child(4) {
+  margin-bottom: 5px;
+}
+#footer .sophia .general .logo-text .text1 p:nth-child(5) {
+  cursor: pointer;
+}
+#footer .sophia .general .services {
+  margin-top: 75px;
+  margin-left: 40px;
+}
+#footer .sophia .general .services p1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+#footer .sophia .general .services p {
+  margin-bottom: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+#footer .sophia .general .subscribe {
+  margin-top: 75px;
+  margin-left: 90px;
+}
+#footer .sophia .general .subscribe p1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+#footer .sophia .general .subscribe input {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid rgb(204, 202, 202);
+}
+#footer .sophia .general .subscribe .button button {
+  background-color: #EF6C00;
+  width: 300px;
+  height: 50px;
+  border-radius: 3px;
+  border: none;
+  margin-top: 20px;
+}
+#footer .sophia .general .subscribe .button button span {
+  color: white;
+  font-weight: bold;
+}
+#footer .sophia .general .contact {
+  margin-top: 75px;
+  margin-left: 25px;
+}
+#footer .sophia .general .contact p {
+  font-size: 18px;
+  font-weight: bold;
+}
+#footer .sophia .general .contact .icon2 {
+  margin-top: 5px;
+}
+#footer .sophia .general .contact .icon3 {
+  margin-top: 5px;
+}
+#footer .sophia .general .contact .icon3 i a {
+  color: #000;
+  text-decoration: none;
+}
+#footer .sophia .general .contact .icons {
+  display: flex;
+  margin-top: 25px;
+  gap: 20px;
+}
+#footer .sophia .general .contact .icons .icons1 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+#footer .sophia .general .contact .icons .icons1 a {
+  color: #000;
+}
+#footer .sophia .general .contact .icons .icons1 a i {
+  margin-left: 9px;
+}
+#footer .sophia .general .contact .icons .icons2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+#footer .sophia .general .contact .icons .icons2 a {
+  color: #000;
+}
+#footer .sophia .general .contact .icons .icons2 a i {
+  margin-left: 8px;
+}
+#footer .sophia .general .contact .icons .icons3 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+#footer .sophia .general .contact .icons .icons3 a {
+  color: #000;
+}
+#footer .sophia .general .contact .icons .icons3 a i {
+  margin-left: 6px;
+}
+#footer .sophia .general .contact .icons .icons4 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+#footer .sophia .general .contact .icons .icons4 a {
+  color: #000;
+}
+#footer .sophia .general .contact .icons .icons4 a i {
+  margin-left: 5px;
 }/*# sourceMappingURL=home.css.map */

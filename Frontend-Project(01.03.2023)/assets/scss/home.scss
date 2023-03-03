@@ -952,9 +952,6 @@
     }
 }
 
-body {
-    height: 3100px;
-}
 
 
 #slider-product {
@@ -2470,8 +2467,9 @@ body {
             .texts {
 
                 .text1 {
-                    a{
+                    a {
                         text-decoration: none;
+
                         p {
                             margin-top: 6px;
                             margin-left: 10px;
@@ -2480,7 +2478,7 @@ body {
                             color: black;
                         }
                     }
-                    
+
                 }
 
                 .icons {
@@ -2500,5 +2498,202 @@ body {
         }
 
 
+    }
+}
+
+
+#footer {
+
+    .sophia {
+        background-color: #F7F7F7;
+        width: 100%;
+        height: 400px;
+        margin-top: 50px;
+
+        .general {
+            display: flex;
+            margin-left: 100px;
+
+            .logo-text {
+                margin-top: 70px;
+
+
+                a {
+                    img {}
+                }
+
+                .text1 {
+                    font-size: 17px;
+                    margin-top: 10px;
+
+                    p {
+                        margin-bottom: -1px;
+
+                        &:nth-child(4) {
+                            margin-bottom: 5px;
+                        }
+
+                        &:nth-child(5) {
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+            }
+
+            .services {
+                margin-top: 75px;
+                margin-left: 40px;
+
+                p1 {
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+
+                p {
+                    margin-bottom: 5px;
+                    margin-top: 10px;
+                    cursor: pointer;
+                }
+            }
+
+            .subscribe {
+                margin-top: 75px;
+                margin-left: 90px;
+
+                p1 {
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+
+                p {}
+
+                input {
+                    width: 300px;
+                    height: 50px;
+                    border-radius: 5px;
+                    border: 1px solid rgb(204, 202, 202);
+                }
+
+                .button {
+                    button {
+                        background-color: #EF6C00;
+                        width: 300px;
+                        height: 50px;
+                        border-radius: 3px;
+                        border: none;
+                        margin-top: 20px;
+
+                        span {
+                            color: white;
+                            font-weight: bold;
+                        }
+                    }
+                }
+
+            }
+
+            .contact {
+                margin-top: 75px;
+                margin-left: 25px;
+
+                p {
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+
+                .icon2 {
+                    margin-top: 5px;
+                }
+
+                .icon3 {
+                    margin-top: 5px;
+
+                    i{
+
+                        a{
+                            color: #000;
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+                .icons {
+                    display: flex;
+                    margin-top: 25px;
+                    gap: 20px;
+
+
+                    .icons1 {
+                        width: 30px;
+                        height: 30px;
+
+                        a {
+                            color: #000;
+
+                            i {
+                                margin-left: 9px;
+                            }
+                        }
+
+                        border-radius: 50%;
+                        border: 1px solid black;
+                    }
+
+                    .icons2 {
+                        width: 30px;
+                        height: 30px;
+
+                        a {
+                            color: #000;
+
+                            i {
+                                margin-left: 8px;
+                            }
+                        }
+
+                        border-radius: 50%;
+                        border: 1px solid black;
+                    }
+
+                    .icons3 {
+                        width: 30px;
+                        height: 30px;
+
+                        a {
+                            color: #000;
+
+                            i {
+                                margin-left: 6px;
+                            }
+                        }
+
+                        border-radius: 50%;
+                        border: 1px solid black;
+                    }
+
+                    .icons4 {
+                        width: 30px;
+                        height: 30px;
+                        a {
+                            color: #000;
+
+                            i {
+                                margin-left: 5px;
+                            }
+                        }
+
+                        border-radius: 50%;
+                        border: 1px solid black;
+                    }
+
+
+                }
+
+            }
+
+
+
+        }
     }
 }
