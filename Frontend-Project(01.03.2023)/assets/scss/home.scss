@@ -811,7 +811,8 @@
                 }
             }
         }
-        .line1{
+
+        .line1 {
             border: 1px solid rgb(235, 233, 233);
             height: 100px;
             margin-top: 15px;
@@ -819,7 +820,7 @@
         }
     }
 
-    
+
 
 
 
@@ -859,7 +860,7 @@
         }
     }
 
-    .line2{
+    .line2 {
         border: 1px solid rgb(235, 233, 233);
         height: 100px;
         margin-top: 15px;
@@ -904,7 +905,7 @@
         }
     }
 
-    .line3{
+    .line3 {
         border: 1px solid rgb(235, 233, 233);
         height: 100px;
         margin-top: 15px;
@@ -912,11 +913,12 @@
     }
 
 
-    .card4{
+    .card4 {
         width: 300px;
         height: 130px;
         display: flex;
-        .icon4{
+
+        .icon4 {
 
             margin-top: 35px;
             font-size: 35px;
@@ -924,22 +926,21 @@
             color: #EF6C00;
         }
 
-        .online-call{
+        .online-call {
             margin-top: 40px;
             margin-left: 10px;
-            .online{
+
+            .online {
                 font-size: 13px;
                 font-weight: bolder;
-                span{
 
-
-                }
+                span {}
             }
 
-            .call{
-                .span1{
+            .call {
+                .span1 {
 
-                    span{
+                    span {
 
                         font-size: 12px;
                         font-weight: 500;
@@ -953,4 +954,1182 @@
 
 body {
     height: 3000px;
+}
+
+
+#slider-product {
+    margin-top: 150px;
+
+
+    .card1 {
+        width: 250px;
+        height: 375px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        &:hover{
+            .icon1{
+                display: block;
+                transition: all 0.9s;
+            }
+        }
+        .icon1{
+            display: none;
+            cursor: pointer;
+
+            .one{
+                &:hover{
+                    color: #EF6C00;
+                    transition: all 0.5s;
+                }
+            }
+
+            .two{
+                &:hover{
+                    color: #EF6C00;
+                    transition: all 0.5s;
+                }
+            }
+
+            .three{
+                &:hover{
+                    color: #EF6C00;
+                    transition: all 0.5s;
+                }
+            }
+            
+        }
+
+        .img-icon {
+            display: flex;
+
+            .img1 {
+                img {
+                    width: 185px;
+                    height: 200px;
+                    margin-left: 32px;
+                }
+            }
+
+            .icon1 {
+                margin-top: 25px;
+                
+
+                
+
+                i {
+                    font-size: 20px;
+                }
+
+                :nth-child(2) {
+                    margin-top: 10px;
+                }
+
+                :nth-child(3) {
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        .text1 {
+            margin-left: 15px;
+
+            p {
+                color: #BEBCBE;
+
+                margin-bottom: -2px;
+
+            }
+
+        }
+
+        .star-price {
+            display: flex;
+
+            .star {
+                display: flex;
+                font-size: 13px;
+                margin-left: 15px;
+                margin-top: 15px;
+            }
+
+            .price {
+                margin-left: 80px;
+                margin-top: 10px;
+
+                h5 {
+                    font-weight: 400;
+                }
+            }
+        }
+
+
+
+        button {
+            margin-left: 15px;
+            margin-top: 20px;
+            background-color: #EF6C00;
+            color: white;
+            border: none;
+            width: 220px;
+            height: 40px;
+            font-weight: 500;
+
+            &:hover{
+
+                span{
+                    color: #EF6C00;
+                }
+
+                i{
+                    color: #EF6C00;
+                }
+
+                transition: all 0.5s;
+            }
+
+            span {
+                color: white;
+            }
+
+            &:hover {
+                background-color: white;
+                border: 1px solid #EF6C00;
+            }
+
+            i {
+                font-size: 14px;
+            }
+
+            
+        }
+
+    }
+
+
+
+    .card2 {
+        width: 250px;
+        height: 375px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        &:hover{
+            .icon1{
+                display: block;
+                transition: all 0.9s;
+            }
+        }
+        .icon1{
+            display: none;
+            cursor: pointer;
+
+            .one{
+                &:hover{
+                    color: #EF6C00;
+                    transition: all 0.5s;
+                }
+            }
+
+            .two{
+                &:hover{
+                    color: #EF6C00;
+                    transition: all 0.5s;
+                }
+            }
+
+            .three{
+                &:hover{
+                    color: #EF6C00;
+                    transition: all 0.5s;
+                }
+            }
+            
+        }
+
+        .img-icon {
+            display: flex;
+
+            .img1 {
+                img {
+                    width: 185px;
+                    height: 200px;
+                    margin-left: 32px;
+                }
+            }
+
+            .icon1 {
+                margin-top: 25px;
+                
+
+                
+
+                i {
+                    font-size: 20px;
+                }
+
+                :nth-child(2) {
+                    margin-top: 10px;
+                }
+
+                :nth-child(3) {
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        .text1 {
+            margin-left: 15px;
+
+            p {
+                color: #BEBCBE;
+
+                margin-bottom: -2px;
+
+            }
+
+        }
+
+        .star-price {
+            display: flex;
+
+            .star {
+                display: flex;
+                font-size: 13px;
+                margin-left: 15px;
+                margin-top: 15px;
+            }
+
+            .price {
+                margin-left: 80px;
+                margin-top: 10px;
+
+                h5 {
+                    font-weight: 400;
+                }
+            }
+        }
+
+
+
+        button {
+            margin-left: 15px;
+            margin-top: 20px;
+            background-color: #EF6C00;
+            color: white;
+            border: none;
+            width: 220px;
+            height: 40px;
+            font-weight: 500;
+
+            &:hover{
+
+                span{
+                    color: #EF6C00;
+                }
+
+                i{
+                    color: #EF6C00;
+                }
+
+                transition: all 0.5s;
+            }
+
+            span {
+                color: white;
+            }
+
+            &:hover {
+                background-color: white;
+                border: 1px solid #EF6C00;
+            }
+
+            i {
+                font-size: 14px;
+            }
+
+            
+        }
+
+    }
+
+
+
+    .card3 {
+        width: 250px;
+        height: 375px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        &:hover{
+            .icon1{
+                display: block;
+                transition: all 0.9s;
+            }
+        }
+        .icon1{
+            display: none;
+            cursor: pointer;
+
+            .one{
+                &:hover{
+                    color: #EF6C00;
+                    transition: all 0.5s;
+                }
+            }
+
+            .two{
+                &:hover{
+                    color: #EF6C00;
+                    transition: all 0.5s;
+                }
+            }
+
+            .three{
+                &:hover{
+                    color: #EF6C00;
+                    transition: all 0.5s;
+                }
+            }
+            
+        }
+
+        .img-icon {
+            display: flex;
+
+            .img1 {
+                img {
+                    width: 185px;
+                    height: 200px;
+                    margin-left: 32px;
+                }
+            }
+
+            .icon1 {
+                margin-top: 25px;
+                
+
+                
+
+                i {
+                    font-size: 20px;
+                }
+
+                :nth-child(2) {
+                    margin-top: 10px;
+                }
+
+                :nth-child(3) {
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        .text1 {
+            margin-left: 15px;
+
+            p {
+                color: #BEBCBE;
+
+                margin-bottom: -2px;
+
+            }
+
+        }
+
+        .star-price {
+            display: flex;
+
+            .star {
+                display: flex;
+                font-size: 13px;
+                margin-left: 15px;
+                margin-top: 15px;
+            }
+
+            .price {
+                margin-left: 80px;
+                margin-top: 10px;
+
+                h5 {
+                    font-weight: 400;
+                }
+            }
+        }
+
+
+
+        button {
+            margin-left: 15px;
+            margin-top: 20px;
+            background-color: #EF6C00;
+            color: white;
+            border: none;
+            width: 220px;
+            height: 40px;
+            font-weight: 500;
+
+            &:hover{
+
+                span{
+                    color: #EF6C00;
+                }
+
+                i{
+                    color: #EF6C00;
+                }
+
+                transition: all 0.5s;
+            }
+
+            span {
+                color: white;
+            }
+
+            &:hover {
+                background-color: white;
+                border: 1px solid #EF6C00;
+            }
+
+            i {
+                font-size: 14px;
+            }
+
+            
+        }
+
+    }
+
+
+
+
+    .card4 {
+        width: 250px;
+        height: 375px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        &:hover{
+            .icon1{
+                display: block;
+                transition: all 0.9s;
+            }
+        }
+        .icon1{
+            display: none;
+            cursor: pointer;
+
+            .one{
+                &:hover{
+                    color: #EF6C00;
+                    transition: all 0.5s;
+                }
+            }
+
+            .two{
+                &:hover{
+                    color: #EF6C00;
+                    transition: all 0.5s;
+                }
+            }
+
+            .three{
+                &:hover{
+                    color: #EF6C00;
+                    transition: all 0.5s;
+                }
+            }
+            
+        }
+
+        .img-icon {
+            display: flex;
+
+            .img1 {
+                img {
+                    width: 185px;
+                    height: 200px;
+                    margin-left: 32px;
+                }
+            }
+
+            .icon1 {
+                margin-top: 25px;
+                
+
+                
+
+                i {
+                    font-size: 20px;
+                }
+
+                :nth-child(2) {
+                    margin-top: 10px;
+                }
+
+                :nth-child(3) {
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        .text1 {
+            margin-left: 15px;
+
+            p {
+                color: #BEBCBE;
+
+                margin-bottom: -2px;
+
+            }
+
+        }
+
+        .star-price {
+            display: flex;
+
+            .star {
+                display: flex;
+                font-size: 13px;
+                margin-left: 15px;
+                margin-top: 15px;
+            }
+
+            .price {
+                margin-left: 80px;
+                margin-top: 10px;
+
+                h5 {
+                    font-weight: 400;
+                }
+            }
+        }
+
+
+
+        button {
+            margin-left: 15px;
+            margin-top: 20px;
+            background-color: #EF6C00;
+            color: white;
+            border: none;
+            width: 220px;
+            height: 40px;
+            font-weight: 500;
+
+            &:hover{
+
+                span{
+                    color: #EF6C00;
+                }
+
+                i{
+                    color: #EF6C00;
+                }
+
+                transition: all 0.5s;
+            }
+
+            span {
+                color: white;
+            }
+
+            &:hover {
+                background-color: white;
+                border: 1px solid #EF6C00;
+            }
+
+            i {
+                font-size: 14px;
+            }
+
+            
+        }
+
+    }
+
+
+
+
+    .card5 {
+        width: 250px;
+        height: 375px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        &:hover{
+            .icon1{
+                display: block;
+                transition: all 0.9s;
+            }
+        }
+        .icon1{
+            display: none;
+            cursor: pointer;
+
+            .one{
+                &:hover{
+                    color: #EF6C00;
+                    transition: all 0.5s;
+                }
+            }
+
+            .two{
+                &:hover{
+                    color: #EF6C00;
+                    transition: all 0.5s;
+                }
+            }
+
+            .three{
+                &:hover{
+                    color: #EF6C00;
+                    transition: all 0.5s;
+                }
+            }
+            
+        }
+
+        .img-icon {
+            display: flex;
+
+            .img1 {
+                img {
+                    width: 185px;
+                    height: 200px;
+                    margin-left: 32px;
+                }
+            }
+
+            .icon1 {
+                margin-top: 25px;
+                
+
+                
+
+                i {
+                    font-size: 20px;
+                }
+
+                :nth-child(2) {
+                    margin-top: 10px;
+                }
+
+                :nth-child(3) {
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        .text1 {
+            margin-left: 15px;
+
+            p {
+                color: #BEBCBE;
+
+                margin-bottom: -2px;
+
+            }
+
+        }
+
+        .star-price {
+            display: flex;
+
+            .star {
+                display: flex;
+                font-size: 13px;
+                margin-left: 15px;
+                margin-top: 15px;
+            }
+
+            .price {
+                margin-left: 80px;
+                margin-top: 10px;
+
+                h5 {
+                    font-weight: 400;
+                }
+            }
+        }
+
+
+
+        button {
+            margin-left: 15px;
+            margin-top: 20px;
+            background-color: #EF6C00;
+            color: white;
+            border: none;
+            width: 220px;
+            height: 40px;
+            font-weight: 500;
+
+            &:hover{
+
+                span{
+                    color: #EF6C00;
+                }
+
+                i{
+                    color: #EF6C00;
+                }
+
+                transition: all 0.5s;
+            }
+
+            span {
+                color: white;
+            }
+
+            &:hover {
+                background-color: white;
+                border: 1px solid #EF6C00;
+            }
+
+            i {
+                font-size: 14px;
+            }
+
+            
+        }
+
+    }
+
+
+
+
+    .card6 {
+        width: 250px;
+        height: 375px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        &:hover{
+            .icon1{
+                display: block;
+                transition: all 0.9s;
+            }
+        }
+        .icon1{
+            display: none;
+            cursor: pointer;
+
+            .one{
+                &:hover{
+                    color: #EF6C00;
+                    transition: all 0.5s;
+                }
+            }
+
+            .two{
+                &:hover{
+                    color: #EF6C00;
+                    transition: all 0.5s;
+                }
+            }
+
+            .three{
+                &:hover{
+                    color: #EF6C00;
+                    transition: all 0.5s;
+                }
+            }
+            
+        }
+
+        .img-icon {
+            display: flex;
+
+            .img1 {
+                img {
+                    width: 185px;
+                    height: 200px;
+                    margin-left: 32px;
+                }
+            }
+
+            .icon1 {
+                margin-top: 25px;
+                
+
+                
+
+                i {
+                    font-size: 20px;
+                }
+
+                :nth-child(2) {
+                    margin-top: 10px;
+                }
+
+                :nth-child(3) {
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        .text1 {
+            margin-left: 15px;
+
+            p {
+                color: #BEBCBE;
+
+                margin-bottom: -2px;
+
+            }
+
+        }
+
+        .star-price {
+            display: flex;
+
+            .star {
+                display: flex;
+                font-size: 13px;
+                margin-left: 15px;
+                margin-top: 15px;
+            }
+
+            .price {
+                margin-left: 80px;
+                margin-top: 10px;
+
+                h5 {
+                    font-weight: 400;
+                }
+            }
+        }
+
+
+
+        button {
+            margin-left: 15px;
+            margin-top: 20px;
+            background-color: #EF6C00;
+            color: white;
+            border: none;
+            width: 220px;
+            height: 40px;
+            font-weight: 500;
+
+            &:hover{
+
+                span{
+                    color: #EF6C00;
+                }
+
+                i{
+                    color: #EF6C00;
+                }
+
+                transition: all 0.5s;
+            }
+
+            span {
+                color: white;
+            }
+
+            &:hover {
+                background-color: white;
+                border: 1px solid #EF6C00;
+            }
+
+            i {
+                font-size: 14px;
+            }
+
+            
+        }
+
+    }
+
+
+
+    .card7 {
+        width: 250px;
+        height: 375px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        &:hover{
+            .icon1{
+                display: block;
+                transition: all 0.9s;
+            }
+        }
+        .icon1{
+            display: none;
+            cursor: pointer;
+
+            .one{
+                &:hover{
+                    color: #EF6C00;
+                    transition: all 0.5s;
+                }
+            }
+
+            .two{
+                &:hover{
+                    color: #EF6C00;
+                    transition: all 0.5s;
+                }
+            }
+
+            .three{
+                &:hover{
+                    color: #EF6C00;
+                    transition: all 0.5s;
+                }
+            }
+            
+        }
+
+        .img-icon {
+            display: flex;
+
+            .img1 {
+                img {
+                    width: 185px;
+                    height: 200px;
+                    margin-left: 32px;
+                }
+            }
+
+            .icon1 {
+                margin-top: 25px;
+                
+
+                
+
+                i {
+                    font-size: 20px;
+                }
+
+                :nth-child(2) {
+                    margin-top: 10px;
+                }
+
+                :nth-child(3) {
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        .text1 {
+            margin-left: 15px;
+
+            p {
+                color: #BEBCBE;
+
+                margin-bottom: -2px;
+
+            }
+
+        }
+
+        .star-price {
+            display: flex;
+
+            .star {
+                display: flex;
+                font-size: 13px;
+                margin-left: 15px;
+                margin-top: 15px;
+            }
+
+            .price {
+                margin-left: 80px;
+                margin-top: 10px;
+
+                h5 {
+                    font-weight: 400;
+                }
+            }
+        }
+
+
+
+        button {
+            margin-left: 15px;
+            margin-top: 20px;
+            background-color: #EF6C00;
+            color: white;
+            border: none;
+            width: 220px;
+            height: 40px;
+            font-weight: 500;
+
+            &:hover{
+
+                span{
+                    color: #EF6C00;
+                }
+
+                i{
+                    color: #EF6C00;
+                }
+
+                transition: all 0.5s;
+            }
+
+            span {
+                color: white;
+            }
+
+            &:hover {
+                background-color: white;
+                border: 1px solid #EF6C00;
+            }
+
+            i {
+                font-size: 14px;
+            }
+
+            
+        }
+
+    }
+
+
+
+
+    .card8 {
+        width: 250px;
+        height: 375px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        &:hover{
+            .icon1{
+                display: block;
+                transition: all 0.9s;
+            }
+        }
+        .icon1{
+            display: none;
+            cursor: pointer;
+
+            .one{
+                &:hover{
+                    color: #EF6C00;
+                    transition: all 0.5s;
+                }
+            }
+
+            .two{
+                &:hover{
+                    color: #EF6C00;
+                    transition: all 0.5s;
+                }
+            }
+
+            .three{
+                &:hover{
+                    color: #EF6C00;
+                    transition: all 0.5s;
+                }
+            }
+            
+        }
+
+        .img-icon {
+            display: flex;
+
+            .img1 {
+                img {
+                    width: 185px;
+                    height: 200px;
+                    margin-left: 32px;
+                }
+            }
+
+            .icon1 {
+                margin-top: 25px;
+                
+
+                
+
+                i {
+                    font-size: 20px;
+                }
+
+                :nth-child(2) {
+                    margin-top: 10px;
+                }
+
+                :nth-child(3) {
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        .text1 {
+            margin-left: 15px;
+
+            p {
+                color: #BEBCBE;
+
+                margin-bottom: -2px;
+
+            }
+
+        }
+
+        .star-price {
+            display: flex;
+
+            .star {
+                display: flex;
+                font-size: 13px;
+                margin-left: 15px;
+                margin-top: 15px;
+            }
+
+            .price {
+                margin-left: 80px;
+                margin-top: 10px;
+
+                h5 {
+                    font-weight: 400;
+                }
+            }
+        }
+
+
+
+        button {
+            margin-left: 15px;
+            margin-top: 20px;
+            background-color: #EF6C00;
+            color: white;
+            border: none;
+            width: 220px;
+            height: 40px;
+            font-weight: 500;
+
+            &:hover{
+
+                span{
+                    color: #EF6C00;
+                }
+
+                i{
+                    color: #EF6C00;
+                }
+
+                transition: all 0.5s;
+            }
+
+            span {
+                color: white;
+            }
+
+            &:hover {
+                background-color: white;
+                border: 1px solid #EF6C00;
+            }
+
+            i {
+                font-size: 14px;
+            }
+
+            
+        }
+
+    }
+
+
 }
