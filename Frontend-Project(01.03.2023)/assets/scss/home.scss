@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 #up-menu {
     display: flex;
     height: 65px;
@@ -490,9 +492,57 @@
 
                 }
             }
+
+
         }
+
     }
 
+    .spCard-dropdown {
+
+        position: absolute;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        right: 32px;
+        top: 131px;
+        background-color: white;
+        width: 246px;
+        border-radius: 5px;
+        color: #333 !important;
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+        box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+        z-index: 5;
+
+        a {
+            text-decoration: none;
+
+            p {
+                top: 14px;
+                position: relative;
+                color: #444;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+
+        .count {
+
+            bottom: 65px;
+            left: 180px;
+            position: absolute;
+            color: #444;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .alert {
+            height: 1px;
+            position: relative;
+            left: 26px;
+            bottom: 12px;
+        }
+
+    }
 
 }
 
@@ -755,6 +805,9 @@
 
 
 #cards {
+
+
+
     background-color: white;
     margin-top: 30px;
     border: 1px solid rgb(235, 233, 233);
@@ -955,6 +1008,11 @@
 
 
 #slider-product {
+
+
+    position: relative;
+
+
     margin-top: 150px;
 
 
@@ -994,6 +1052,10 @@
                     transition: all 0.5s;
                 }
             }
+
+
+
+
 
         }
 
@@ -1062,6 +1124,9 @@
 
 
 
+
+
+
         button {
             margin-left: 15px;
             margin-top: 20px;
@@ -1099,6 +1164,176 @@
             }
 
 
+        }
+
+
+
+
+    }
+
+    .modal1 {
+        display: flex;
+        width: 900px;
+        height: 550px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-left: 230px;
+        margin-top: -600px;
+        position: absolute;
+        z-index: 1;
+        background-color: rgb(255, 251, 251);
+
+        .img {
+
+            img {
+                width: 400px;
+                margin-top: 60px;
+                margin-left: 20px;
+            }
+        }
+
+        .iconca {
+            margin-left: 417px;
+            margin-top: -29px;
+
+            a {
+                text-decoration: none;
+                color: red;
+                font-size: 40px;
+            }
+        }
+
+        .text1 {
+            h2 {
+                font-size: 40px;
+            }
+        }
+
+        .texts {
+            display: flex;
+
+            .price1 {
+                del {
+                    font-size: 17px;
+                    font-weight: bold;
+                    color: rgb(140, 139, 139);
+                }
+            }
+
+            .price2 {
+                p {
+                    color: red;
+                    font-size: 25px;
+                    font-weight: bolder;
+                    margin-left: 10px;
+                    margin-top: -8px;
+                }
+            }
+        }
+
+        .text2 {
+
+            p {
+                font-size: 30px;
+                margin-top: -15px;
+            }
+
+        }
+
+        .border {
+            width: 348px;
+            border: 1px dashed #f6f6f6;
+            margin-top: -5px;
+        }
+
+        .text3 {
+            font-weight: bolder;
+
+            p {
+                margin-top: 7px;
+            }
+        }
+
+        .text4 {
+
+            p {
+                width: 350px;
+                margin-top: -10px;
+            }
+        }
+
+        .border {
+            border: 1px dashed #f6f6f6;
+        }
+
+        .text5 {
+            display: flex;
+            margin-top: 10px;
+
+            .text1 {
+
+                p {
+                    color: rgb(140, 139, 139);
+                }
+            }
+
+            .text2 {
+
+                p {
+                    font-size: 15px;
+                    margin-top: 1px;
+                    margin-left: 5px;
+                }
+            }
+        }
+
+        .text6 {
+            p {
+                color: rgb(140, 139, 139);
+                margin-top: -10px;
+            }
+        }
+
+        .input-icon {
+            display: flex;
+
+            .inputs {
+                display: flex;
+
+                .minus {
+                    cursor: pointer;
+                    p {
+                        font-size: 50px;
+                        margin-top: -26px;
+                    }
+                }
+
+                input {
+                    height: 30px;
+                    width: 70px;
+                    margin-left: 10px;
+                }
+
+                .plus {
+                    cursor: pointer;
+                    p {
+                        margin-left: 10px;
+                        font-size: 35px;
+                        margin-top: -14px;
+                    }
+                }
+            }
+            .icons{
+                display: flex;
+                margin-left: 165px;
+                gap: 15px;
+                .icon1{
+                    cursor: pointer;
+                    color: rgb(140, 139, 139);
+                }
+            }   .icon2{
+                cursor: pointer;
+                color: rgb(140, 139, 139);
+            }
         }
 
     }
@@ -1251,6 +1486,174 @@
     }
 
 
+    .modal2 {
+        display: flex;
+        width: 900px;
+        height: 550px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-top: -600px;
+        margin-left: -100px;
+        position: absolute;
+        z-index: 1;
+        background-color: rgb(255, 251, 251);
+
+        .img {
+
+            img {
+                width: 400px;
+                margin-top: 60px;
+                margin-left: 20px;
+            }
+        }
+
+        .iconca {
+            margin-left: 417px;
+            margin-top: -29px;
+
+            a {
+                text-decoration: none;
+                color: red;
+                font-size: 40px;
+            }
+        }
+
+        .text1 {
+            h2 {
+                font-size: 40px;
+            }
+        }
+
+        .texts {
+            display: flex;
+
+            .price1 {
+                del {
+                    font-size: 17px;
+                    font-weight: bold;
+                    color: rgb(140, 139, 139);
+                }
+            }
+
+            .price2 {
+                p {
+                    color: red;
+                    font-size: 25px;
+                    font-weight: bolder;
+                    margin-left: 10px;
+                    margin-top: -8px;
+                }
+            }
+        }
+
+        .text2 {
+
+            p {
+                font-size: 30px;
+                margin-top: -15px;
+            }
+
+        }
+
+        .border {
+            width: 348px;
+            border: 1px dashed #f6f6f6;
+            margin-top: -5px;
+        }
+
+        .text3 {
+            font-weight: bolder;
+
+            p {
+                margin-top: 7px;
+            }
+        }
+
+        .text4 {
+
+            p {
+                width: 350px;
+                margin-top: -10px;
+            }
+        }
+
+        .border {
+            border: 1px dashed #f6f6f6;
+        }
+
+        .text5 {
+            display: flex;
+            margin-top: 10px;
+
+            .text1 {
+
+                p {
+                    color: rgb(140, 139, 139);
+                }
+            }
+
+            .text2 {
+
+                p {
+                    font-size: 15px;
+                    margin-top: 1px;
+                    margin-left: 5px;
+                }
+            }
+        }
+
+        .text6 {
+            p {
+                color: rgb(140, 139, 139);
+                margin-top: -10px;
+            }
+        }
+
+        .input-icon {
+            display: flex;
+
+            .inputs {
+                display: flex;
+
+                .minus {
+                    cursor: pointer;
+                    p {
+                        font-size: 50px;
+                        margin-top: -26px;
+                    }
+                }
+
+                input {
+                    height: 30px;
+                    width: 70px;
+                    margin-left: 10px;
+                }
+
+                .plus {
+                    cursor: pointer;
+                    p {
+                        margin-left: 10px;
+                        font-size: 35px;
+                        margin-top: -14px;
+                    }
+                }
+            }
+            .icons{
+                display: flex;
+                margin-left: 165px;
+                gap: 15px;
+                .icon1{
+                    cursor: pointer;
+                    color: rgb(140, 139, 139);
+                }
+            }   .icon2{
+                cursor: pointer;
+                color: rgb(140, 139, 139);
+            }
+        }
+
+    }
+
+
 
     .card3 {
         width: 250px;
@@ -1393,6 +1796,173 @@
             }
 
 
+        }
+
+    }
+
+    .modal3 {
+        display: flex;
+        width: 900px;
+        height: 550px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-top: -600px;
+        margin-left: -430px;
+        position: absolute;
+        z-index: 1;
+        background-color: rgb(255, 251, 251);
+
+        .img {
+
+            img {
+                width: 400px;
+                margin-top: 60px;
+                margin-left: 20px;
+            }
+        }
+
+        .iconca {
+            margin-left: 417px;
+            margin-top: -29px;
+
+            a {
+                text-decoration: none;
+                color: red;
+                font-size: 40px;
+            }
+        }
+
+        .text1 {
+            h2 {
+                font-size: 40px;
+            }
+        }
+
+        .texts {
+            display: flex;
+
+            .price1 {
+                del {
+                    font-size: 17px;
+                    font-weight: bold;
+                    color: rgb(140, 139, 139);
+                }
+            }
+
+            .price2 {
+                p {
+                    color: red;
+                    font-size: 25px;
+                    font-weight: bolder;
+                    margin-left: 10px;
+                    margin-top: -8px;
+                }
+            }
+        }
+
+        .text2 {
+
+            p {
+                font-size: 30px;
+                margin-top: -15px;
+            }
+
+        }
+
+        .border {
+            width: 348px;
+            border: 1px dashed #f6f6f6;
+            margin-top: -5px;
+        }
+
+        .text3 {
+            font-weight: bolder;
+
+            p {
+                margin-top: 7px;
+            }
+        }
+
+        .text4 {
+
+            p {
+                width: 350px;
+                margin-top: -10px;
+            }
+        }
+
+        .border {
+            border: 1px dashed #f6f6f6;
+        }
+
+        .text5 {
+            display: flex;
+            margin-top: 10px;
+
+            .text1 {
+
+                p {
+                    color: rgb(140, 139, 139);
+                }
+            }
+
+            .text2 {
+
+                p {
+                    font-size: 15px;
+                    margin-top: 1px;
+                    margin-left: 5px;
+                }
+            }
+        }
+
+        .text6 {
+            p {
+                color: rgb(140, 139, 139);
+                margin-top: -10px;
+            }
+        }
+
+        .input-icon {
+            display: flex;
+
+            .inputs {
+                display: flex;
+
+                .minus {
+                    cursor: pointer;
+                    p {
+                        font-size: 50px;
+                        margin-top: -26px;
+                    }
+                }
+
+                input {
+                    height: 30px;
+                    width: 70px;
+                    margin-left: 10px;
+                }
+
+                .plus {
+                    cursor: pointer;
+                    p {
+                        margin-left: 10px;
+                        font-size: 35px;
+                        margin-top: -14px;
+                    }
+                }
+            }
+            .icons{
+                display: flex;
+                margin-left: 165px;
+                gap: 15px;
+                .icon1{
+                    cursor: pointer;
+                    color: rgb(140, 139, 139);
+                }
+            }   .icon2{
+                cursor: pointer;
+                color: rgb(140, 139, 139);
+            }
         }
 
     }
@@ -1541,6 +2111,173 @@
             }
 
 
+        }
+
+    }
+
+    .modal4 {
+        display: flex;
+        width: 900px;
+        height: 550px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-top: -600px;
+        margin-left: -760px;
+        position: absolute;
+        z-index: 1;
+        background-color: rgb(255, 251, 251);
+
+        .img {
+
+            img {
+                width: 400px;
+                margin-top: 60px;
+                margin-left: 20px;
+            }
+        }
+
+        .iconca {
+            margin-left: 417px;
+            margin-top: -29px;
+
+            a {
+                text-decoration: none;
+                color: red;
+                font-size: 40px;
+            }
+        }
+
+        .text1 {
+            h2 {
+                font-size: 40px;
+            }
+        }
+
+        .texts {
+            display: flex;
+
+            .price1 {
+                del {
+                    font-size: 17px;
+                    font-weight: bold;
+                    color: rgb(140, 139, 139);
+                }
+            }
+
+            .price2 {
+                p {
+                    color: red;
+                    font-size: 25px;
+                    font-weight: bolder;
+                    margin-left: 10px;
+                    margin-top: -8px;
+                }
+            }
+        }
+
+        .text2 {
+
+            p {
+                font-size: 30px;
+                margin-top: -15px;
+            }
+
+        }
+
+        .border {
+            width: 348px;
+            border: 1px dashed #f6f6f6;
+            margin-top: -5px;
+        }
+
+        .text3 {
+            font-weight: bolder;
+
+            p {
+                margin-top: 7px;
+            }
+        }
+
+        .text4 {
+
+            p {
+                width: 350px;
+                margin-top: -10px;
+            }
+        }
+
+        .border {
+            border: 1px dashed #f6f6f6;
+        }
+
+        .text5 {
+            display: flex;
+            margin-top: 10px;
+
+            .text1 {
+
+                p {
+                    color: rgb(140, 139, 139);
+                }
+            }
+
+            .text2 {
+
+                p {
+                    font-size: 15px;
+                    margin-top: 1px;
+                    margin-left: 5px;
+                }
+            }
+        }
+
+        .text6 {
+            p {
+                color: rgb(140, 139, 139);
+                margin-top: -10px;
+            }
+        }
+
+        .input-icon {
+            display: flex;
+
+            .inputs {
+                display: flex;
+
+                .minus {
+                    cursor: pointer;
+                    p {
+                        font-size: 50px;
+                        margin-top: -26px;
+                    }
+                }
+
+                input {
+                    height: 30px;
+                    width: 70px;
+                    margin-left: 10px;
+                }
+
+                .plus {
+                    cursor: pointer;
+                    p {
+                        margin-left: 10px;
+                        font-size: 35px;
+                        margin-top: -14px;
+                    }
+                }
+            }
+            .icons{
+                display: flex;
+                margin-left: 165px;
+                gap: 15px;
+                .icon1{
+                    cursor: pointer;
+                    color: rgb(140, 139, 139);
+                }
+            }   .icon2{
+                cursor: pointer;
+                color: rgb(140, 139, 139);
+            }
         }
 
     }
@@ -1695,6 +2432,175 @@
 
 
 
+    .modal5 {
+        display: flex;
+        width: 900px;
+        height: 550px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-top: -973px;
+        margin-left: 231px;
+        position: absolute;
+        z-index: 1;
+        background-color: rgb(255, 251, 251);
+
+        .img {
+
+            img {
+                width: 400px;
+                margin-top: 60px;
+                margin-left: 20px;
+            }
+        }
+
+        .iconca {
+            margin-left: 417px;
+            margin-top: -29px;
+
+            a {
+                text-decoration: none;
+                color: red;
+                font-size: 40px;
+            }
+        }
+
+        .text1 {
+            h2 {
+                font-size: 40px;
+            }
+        }
+
+        .texts {
+            display: flex;
+
+            .price1 {
+                del {
+                    font-size: 17px;
+                    font-weight: bold;
+                    color: rgb(140, 139, 139);
+                }
+            }
+
+            .price2 {
+                p {
+                    color: red;
+                    font-size: 25px;
+                    font-weight: bolder;
+                    margin-left: 10px;
+                    margin-top: -8px;
+                }
+            }
+        }
+
+        .text2 {
+
+            p {
+                font-size: 30px;
+                margin-top: -15px;
+            }
+
+        }
+
+        .border {
+            width: 348px;
+            border: 1px dashed #f6f6f6;
+            margin-top: -5px;
+        }
+
+        .text3 {
+            font-weight: bolder;
+
+            p {
+                margin-top: 7px;
+            }
+        }
+
+        .text4 {
+
+            p {
+                width: 350px;
+                margin-top: -10px;
+            }
+        }
+
+        .border {
+            border: 1px dashed #f6f6f6;
+        }
+
+        .text5 {
+            display: flex;
+            margin-top: 10px;
+
+            .text1 {
+
+                p {
+                    color: rgb(140, 139, 139);
+                }
+            }
+
+            .text2 {
+
+                p {
+                    font-size: 15px;
+                    margin-top: 1px;
+                    margin-left: 5px;
+                }
+            }
+        }
+
+        .text6 {
+            p {
+                color: rgb(140, 139, 139);
+                margin-top: -10px;
+            }
+        }
+
+        .input-icon {
+            display: flex;
+
+            .inputs {
+                display: flex;
+
+                .minus {
+                    cursor: pointer;
+                    p {
+                        font-size: 50px;
+                        margin-top: -26px;
+                    }
+                }
+
+                input {
+                    height: 30px;
+                    width: 70px;
+                    margin-left: 10px;
+                }
+
+                .plus {
+                    cursor: pointer;
+                    p {
+                        margin-left: 10px;
+                        font-size: 35px;
+                        margin-top: -14px;
+                    }
+                }
+            }
+            .icons{
+                display: flex;
+                margin-left: 165px;
+                gap: 15px;
+                .icon1{
+                    cursor: pointer;
+                    color: rgb(140, 139, 139);
+                }
+            }   .icon2{
+                cursor: pointer;
+                color: rgb(140, 139, 139);
+            }
+        }
+
+    }
+
+
+
 
     .card6 {
         width: 250px;
@@ -1840,6 +2746,175 @@
         }
 
     }
+
+
+    .modal6 {
+        display: flex;
+        width: 900px;
+        height: 550px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-top: -973px;
+        margin-left: -100px;
+        position: absolute;
+        z-index: 1;
+        background-color: rgb(255, 251, 251);
+
+        .img {
+
+            img {
+                width: 400px;
+                margin-top: 60px;
+                margin-left: 20px;
+            }
+        }
+
+        .iconca {
+            margin-left: 417px;
+            margin-top: -29px;
+
+            a {
+                text-decoration: none;
+                color: red;
+                font-size: 40px;
+            }
+        }
+
+        .text1 {
+            h2 {
+                font-size: 40px;
+            }
+        }
+
+        .texts {
+            display: flex;
+
+            .price1 {
+                del {
+                    font-size: 17px;
+                    font-weight: bold;
+                    color: rgb(140, 139, 139);
+                }
+            }
+
+            .price2 {
+                p {
+                    color: red;
+                    font-size: 25px;
+                    font-weight: bolder;
+                    margin-left: 10px;
+                    margin-top: -8px;
+                }
+            }
+        }
+
+        .text2 {
+
+            p {
+                font-size: 30px;
+                margin-top: -15px;
+            }
+
+        }
+
+        .border {
+            width: 348px;
+            border: 1px dashed #f6f6f6;
+            margin-top: -5px;
+        }
+
+        .text3 {
+            font-weight: bolder;
+
+            p {
+                margin-top: 7px;
+            }
+        }
+
+        .text4 {
+
+            p {
+                width: 350px;
+                margin-top: -10px;
+            }
+        }
+
+        .border {
+            border: 1px dashed #f6f6f6;
+        }
+
+        .text5 {
+            display: flex;
+            margin-top: 10px;
+
+            .text1 {
+
+                p {
+                    color: rgb(140, 139, 139);
+                }
+            }
+
+            .text2 {
+
+                p {
+                    font-size: 15px;
+                    margin-top: 1px;
+                    margin-left: 5px;
+                }
+            }
+        }
+
+        .text6 {
+            p {
+                color: rgb(140, 139, 139);
+                margin-top: -10px;
+            }
+        }
+
+        .input-icon {
+            display: flex;
+
+            .inputs {
+                display: flex;
+
+                .minus {
+                    cursor: pointer;
+                    p {
+                        font-size: 50px;
+                        margin-top: -26px;
+                    }
+                }
+
+                input {
+                    height: 30px;
+                    width: 70px;
+                    margin-left: 10px;
+                }
+
+                .plus {
+                    cursor: pointer;
+                    p {
+                        margin-left: 10px;
+                        font-size: 35px;
+                        margin-top: -14px;
+                    }
+                }
+            }
+            .icons{
+                display: flex;
+                margin-left: 165px;
+                gap: 15px;
+                .icon1{
+                    cursor: pointer;
+                    color: rgb(140, 139, 139);
+                }
+            }   .icon2{
+                cursor: pointer;
+                color: rgb(140, 139, 139);
+            }
+        }
+
+    }
+
 
 
 
@@ -1989,6 +3064,174 @@
     }
 
 
+    .modal7 {
+        display: flex;
+        width: 900px;
+        height: 550px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-top: -973px;
+        margin-left: -430px;
+        position: absolute;
+        z-index: 1;
+        background-color: rgb(255, 251, 251);
+
+        .img {
+
+            img {
+                width: 400px;
+                margin-top: 60px;
+                margin-left: 20px;
+            }
+        }
+
+        .iconca {
+            margin-left: 417px;
+            margin-top: -29px;
+
+            a {
+                text-decoration: none;
+                color: red;
+                font-size: 40px;
+            }
+        }
+
+        .text1 {
+            h2 {
+                font-size: 40px;
+            }
+        }
+
+        .texts {
+            display: flex;
+
+            .price1 {
+                del {
+                    font-size: 17px;
+                    font-weight: bold;
+                    color: rgb(140, 139, 139);
+                }
+            }
+
+            .price2 {
+                p {
+                    color: red;
+                    font-size: 25px;
+                    font-weight: bolder;
+                    margin-left: 10px;
+                    margin-top: -8px;
+                }
+            }
+        }
+
+        .text2 {
+
+            p {
+                font-size: 30px;
+                margin-top: -15px;
+            }
+
+        }
+
+        .border {
+            width: 348px;
+            border: 1px dashed #f6f6f6;
+            margin-top: -5px;
+        }
+
+        .text3 {
+            font-weight: bolder;
+
+            p {
+                margin-top: 7px;
+            }
+        }
+
+        .text4 {
+
+            p {
+                width: 350px;
+                margin-top: -10px;
+            }
+        }
+
+        .border {
+            border: 1px dashed #f6f6f6;
+        }
+
+        .text5 {
+            display: flex;
+            margin-top: 10px;
+
+            .text1 {
+
+                p {
+                    color: rgb(140, 139, 139);
+                }
+            }
+
+            .text2 {
+
+                p {
+                    font-size: 15px;
+                    margin-top: 1px;
+                    margin-left: 5px;
+                }
+            }
+        }
+
+        .text6 {
+            p {
+                color: rgb(140, 139, 139);
+                margin-top: -10px;
+            }
+        }
+
+        .input-icon {
+            display: flex;
+
+            .inputs {
+                display: flex;
+
+                .minus {
+                    cursor: pointer;
+                    p {
+                        font-size: 50px;
+                        margin-top: -26px;
+                    }
+                }
+
+                input {
+                    height: 30px;
+                    width: 70px;
+                    margin-left: 10px;
+                }
+
+                .plus {
+                    cursor: pointer;
+                    p {
+                        margin-left: 10px;
+                        font-size: 35px;
+                        margin-top: -14px;
+                    }
+                }
+            }
+            .icons{
+                display: flex;
+                margin-left: 165px;
+                gap: 15px;
+                .icon1{
+                    cursor: pointer;
+                    color: rgb(140, 139, 139);
+                }
+            }   .icon2{
+                cursor: pointer;
+                color: rgb(140, 139, 139);
+            }
+        }
+
+    }
+
+
 
 
     .card8 {
@@ -2131,7 +3374,179 @@
                 font-size: 14px;
             }
         }
+
+
     }
+
+    .modal8 {
+        display: flex;
+        width: 900px;
+        height: 550px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-left: -760px;
+        margin-top: -974px;
+        position: absolute;
+        z-index: 1;
+        background-color: rgb(255, 251, 251);
+
+        .img {
+
+            img {
+                width: 400px;
+                margin-top: 60px;
+                margin-left: 20px;
+            }
+        }
+
+        .iconca {
+            margin-left: 417px;
+            margin-top: -29px;
+
+            a {
+                text-decoration: none;
+                color: red;
+                font-size: 40px;
+            }
+        }
+
+        .text1 {
+            h2 {
+                font-size: 40px;
+            }
+        }
+
+        .texts {
+            display: flex;
+
+            .price1 {
+                del {
+                    font-size: 17px;
+                    font-weight: bold;
+                    color: rgb(140, 139, 139);
+                }
+            }
+
+            .price2 {
+                p {
+                    color: red;
+                    font-size: 25px;
+                    font-weight: bolder;
+                    margin-left: 10px;
+                    margin-top: -8px;
+                }
+            }
+        }
+
+        .text2 {
+
+            p {
+                font-size: 30px;
+                margin-top: -15px;
+            }
+
+        }
+
+        .border {
+            width: 348px;
+            border: 1px dashed #f6f6f6;
+            margin-top: -5px;
+        }
+
+        .text3 {
+            font-weight: bolder;
+
+            p {
+                margin-top: 7px;
+            }
+        }
+
+        .text4 {
+
+            p {
+                width: 350px;
+                margin-top: -10px;
+            }
+        }
+
+        .border {
+            border: 1px dashed #f6f6f6;
+        }
+
+        .text5 {
+            display: flex;
+            margin-top: 10px;
+
+            .text1 {
+
+                p {
+                    color: rgb(140, 139, 139);
+                }
+            }
+
+            .text2 {
+
+                p {
+                    font-size: 15px;
+                    margin-top: 1px;
+                    margin-left: 5px;
+                }
+            }
+        }
+
+        .text6 {
+            p {
+                color: rgb(140, 139, 139);
+                margin-top: -10px;
+            }
+        }
+
+        .input-icon {
+            display: flex;
+
+            .inputs {
+                display: flex;
+
+                .minus {
+                    cursor: pointer;
+                    p {
+                        font-size: 50px;
+                        margin-top: -26px;
+                    }
+                }
+
+                input {
+                    height: 30px;
+                    width: 70px;
+                    margin-left: 10px;
+                }
+
+                .plus {
+                    cursor: pointer;
+                    p {
+                        margin-left: 10px;
+                        font-size: 35px;
+                        margin-top: -14px;
+                    }
+                }
+            }
+            .icons{
+                display: flex;
+                margin-left: 165px;
+                gap: 15px;
+                .icon1{
+                    cursor: pointer;
+                    color: rgb(140, 139, 139);
+                }
+            }   .icon2{
+                cursor: pointer;
+                color: rgb(140, 139, 139);
+            }
+        }
+
+    }
+
+
+
 }
 
 
@@ -2602,18 +4017,36 @@
                     font-weight: bold;
                 }
 
+                .icon1 {
+
+                    i {
+
+                        span {
+                            font-size: 12px;
+                        }
+                    }
+                }
+
                 .icon2 {
                     margin-top: 5px;
+
+                    i {
+
+                        span {
+                            font-size: 12px;
+                        }
+                    }
                 }
 
                 .icon3 {
                     margin-top: 5px;
 
-                    i{
+                    i {
 
-                        a{
+                        a {
                             color: #000;
                             text-decoration: none;
+                            font-size: 12px;
                         }
                     }
                 }
@@ -2675,6 +4108,7 @@
                     .icons4 {
                         width: 30px;
                         height: 30px;
+
                         a {
                             color: #000;
 

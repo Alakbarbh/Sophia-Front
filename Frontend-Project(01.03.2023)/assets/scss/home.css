@@ -359,6 +359,44 @@
   font-size: 18px;
   margin-top: 17px;
 }
+#down-menu .spCard-dropdown {
+  position: absolute;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  right: 32px;
+  top: 131px;
+  background-color: white;
+  width: 246px;
+  border-radius: 5px;
+  color: #333 !important;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 5;
+}
+#down-menu .spCard-dropdown a {
+  text-decoration: none;
+}
+#down-menu .spCard-dropdown a p {
+  top: 14px;
+  position: relative;
+  color: #444;
+  font-size: 14px;
+  font-weight: 500;
+}
+#down-menu .spCard-dropdown .count {
+  bottom: 65px;
+  left: 180px;
+  position: absolute;
+  color: #444;
+  font-size: 14px;
+  font-weight: 500;
+}
+#down-menu .spCard-dropdown .alert {
+  height: 1px;
+  position: relative;
+  left: 26px;
+  bottom: 12px;
+}
 
 .navbarr {
   background-color: #FEFEFE;
@@ -640,6 +678,7 @@
 }
 
 #slider-product {
+  position: relative;
   margin-top: 150px;
 }
 #slider-product .card1 {
@@ -739,6 +778,126 @@
 #slider-product .card1 button i {
   font-size: 14px;
 }
+#slider-product .modal1 {
+  display: flex;
+  width: 900px;
+  height: 550px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-left: 230px;
+  margin-top: -600px;
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(255, 251, 251);
+}
+#slider-product .modal1 .img img {
+  width: 400px;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+#slider-product .modal1 .iconca {
+  margin-left: 417px;
+  margin-top: -29px;
+}
+#slider-product .modal1 .iconca a {
+  text-decoration: none;
+  color: red;
+  font-size: 40px;
+}
+#slider-product .modal1 .text1 h2 {
+  font-size: 40px;
+}
+#slider-product .modal1 .texts {
+  display: flex;
+}
+#slider-product .modal1 .texts .price1 del {
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(140, 139, 139);
+}
+#slider-product .modal1 .texts .price2 p {
+  color: red;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-top: -8px;
+}
+#slider-product .modal1 .text2 p {
+  font-size: 30px;
+  margin-top: -15px;
+}
+#slider-product .modal1 .border {
+  width: 348px;
+  border: 1px dashed #f6f6f6;
+  margin-top: -5px;
+}
+#slider-product .modal1 .text3 {
+  font-weight: bolder;
+}
+#slider-product .modal1 .text3 p {
+  margin-top: 7px;
+}
+#slider-product .modal1 .text4 p {
+  width: 350px;
+  margin-top: -10px;
+}
+#slider-product .modal1 .border {
+  border: 1px dashed #f6f6f6;
+}
+#slider-product .modal1 .text5 {
+  display: flex;
+  margin-top: 10px;
+}
+#slider-product .modal1 .text5 .text1 p {
+  color: rgb(140, 139, 139);
+}
+#slider-product .modal1 .text5 .text2 p {
+  font-size: 15px;
+  margin-top: 1px;
+  margin-left: 5px;
+}
+#slider-product .modal1 .text6 p {
+  color: rgb(140, 139, 139);
+  margin-top: -10px;
+}
+#slider-product .modal1 .input-icon {
+  display: flex;
+}
+#slider-product .modal1 .input-icon .inputs {
+  display: flex;
+}
+#slider-product .modal1 .input-icon .inputs .minus {
+  cursor: pointer;
+}
+#slider-product .modal1 .input-icon .inputs .minus p {
+  font-size: 50px;
+  margin-top: -26px;
+}
+#slider-product .modal1 .input-icon .inputs input {
+  height: 30px;
+  width: 70px;
+  margin-left: 10px;
+}
+#slider-product .modal1 .input-icon .inputs .plus {
+  cursor: pointer;
+}
+#slider-product .modal1 .input-icon .inputs .plus p {
+  margin-left: 10px;
+  font-size: 35px;
+  margin-top: -14px;
+}
+#slider-product .modal1 .input-icon .icons {
+  display: flex;
+  margin-left: 165px;
+  gap: 15px;
+}
+#slider-product .modal1 .input-icon .icons .icon1 {
+  cursor: pointer;
+  color: rgb(140, 139, 139);
+}
+#slider-product .modal1 .input-icon .icon2 {
+  cursor: pointer;
+  color: rgb(140, 139, 139);
+}
 #slider-product .card2 {
   width: 250px;
   height: 375px;
@@ -835,6 +994,126 @@
 }
 #slider-product .card2 button i {
   font-size: 14px;
+}
+#slider-product .modal2 {
+  display: flex;
+  width: 900px;
+  height: 550px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: -600px;
+  margin-left: -100px;
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(255, 251, 251);
+}
+#slider-product .modal2 .img img {
+  width: 400px;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+#slider-product .modal2 .iconca {
+  margin-left: 417px;
+  margin-top: -29px;
+}
+#slider-product .modal2 .iconca a {
+  text-decoration: none;
+  color: red;
+  font-size: 40px;
+}
+#slider-product .modal2 .text1 h2 {
+  font-size: 40px;
+}
+#slider-product .modal2 .texts {
+  display: flex;
+}
+#slider-product .modal2 .texts .price1 del {
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(140, 139, 139);
+}
+#slider-product .modal2 .texts .price2 p {
+  color: red;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-top: -8px;
+}
+#slider-product .modal2 .text2 p {
+  font-size: 30px;
+  margin-top: -15px;
+}
+#slider-product .modal2 .border {
+  width: 348px;
+  border: 1px dashed #f6f6f6;
+  margin-top: -5px;
+}
+#slider-product .modal2 .text3 {
+  font-weight: bolder;
+}
+#slider-product .modal2 .text3 p {
+  margin-top: 7px;
+}
+#slider-product .modal2 .text4 p {
+  width: 350px;
+  margin-top: -10px;
+}
+#slider-product .modal2 .border {
+  border: 1px dashed #f6f6f6;
+}
+#slider-product .modal2 .text5 {
+  display: flex;
+  margin-top: 10px;
+}
+#slider-product .modal2 .text5 .text1 p {
+  color: rgb(140, 139, 139);
+}
+#slider-product .modal2 .text5 .text2 p {
+  font-size: 15px;
+  margin-top: 1px;
+  margin-left: 5px;
+}
+#slider-product .modal2 .text6 p {
+  color: rgb(140, 139, 139);
+  margin-top: -10px;
+}
+#slider-product .modal2 .input-icon {
+  display: flex;
+}
+#slider-product .modal2 .input-icon .inputs {
+  display: flex;
+}
+#slider-product .modal2 .input-icon .inputs .minus {
+  cursor: pointer;
+}
+#slider-product .modal2 .input-icon .inputs .minus p {
+  font-size: 50px;
+  margin-top: -26px;
+}
+#slider-product .modal2 .input-icon .inputs input {
+  height: 30px;
+  width: 70px;
+  margin-left: 10px;
+}
+#slider-product .modal2 .input-icon .inputs .plus {
+  cursor: pointer;
+}
+#slider-product .modal2 .input-icon .inputs .plus p {
+  margin-left: 10px;
+  font-size: 35px;
+  margin-top: -14px;
+}
+#slider-product .modal2 .input-icon .icons {
+  display: flex;
+  margin-left: 165px;
+  gap: 15px;
+}
+#slider-product .modal2 .input-icon .icons .icon1 {
+  cursor: pointer;
+  color: rgb(140, 139, 139);
+}
+#slider-product .modal2 .input-icon .icon2 {
+  cursor: pointer;
+  color: rgb(140, 139, 139);
 }
 #slider-product .card3 {
   width: 250px;
@@ -933,6 +1212,126 @@
 #slider-product .card3 button i {
   font-size: 14px;
 }
+#slider-product .modal3 {
+  display: flex;
+  width: 900px;
+  height: 550px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: -600px;
+  margin-left: -430px;
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(255, 251, 251);
+}
+#slider-product .modal3 .img img {
+  width: 400px;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+#slider-product .modal3 .iconca {
+  margin-left: 417px;
+  margin-top: -29px;
+}
+#slider-product .modal3 .iconca a {
+  text-decoration: none;
+  color: red;
+  font-size: 40px;
+}
+#slider-product .modal3 .text1 h2 {
+  font-size: 40px;
+}
+#slider-product .modal3 .texts {
+  display: flex;
+}
+#slider-product .modal3 .texts .price1 del {
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(140, 139, 139);
+}
+#slider-product .modal3 .texts .price2 p {
+  color: red;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-top: -8px;
+}
+#slider-product .modal3 .text2 p {
+  font-size: 30px;
+  margin-top: -15px;
+}
+#slider-product .modal3 .border {
+  width: 348px;
+  border: 1px dashed #f6f6f6;
+  margin-top: -5px;
+}
+#slider-product .modal3 .text3 {
+  font-weight: bolder;
+}
+#slider-product .modal3 .text3 p {
+  margin-top: 7px;
+}
+#slider-product .modal3 .text4 p {
+  width: 350px;
+  margin-top: -10px;
+}
+#slider-product .modal3 .border {
+  border: 1px dashed #f6f6f6;
+}
+#slider-product .modal3 .text5 {
+  display: flex;
+  margin-top: 10px;
+}
+#slider-product .modal3 .text5 .text1 p {
+  color: rgb(140, 139, 139);
+}
+#slider-product .modal3 .text5 .text2 p {
+  font-size: 15px;
+  margin-top: 1px;
+  margin-left: 5px;
+}
+#slider-product .modal3 .text6 p {
+  color: rgb(140, 139, 139);
+  margin-top: -10px;
+}
+#slider-product .modal3 .input-icon {
+  display: flex;
+}
+#slider-product .modal3 .input-icon .inputs {
+  display: flex;
+}
+#slider-product .modal3 .input-icon .inputs .minus {
+  cursor: pointer;
+}
+#slider-product .modal3 .input-icon .inputs .minus p {
+  font-size: 50px;
+  margin-top: -26px;
+}
+#slider-product .modal3 .input-icon .inputs input {
+  height: 30px;
+  width: 70px;
+  margin-left: 10px;
+}
+#slider-product .modal3 .input-icon .inputs .plus {
+  cursor: pointer;
+}
+#slider-product .modal3 .input-icon .inputs .plus p {
+  margin-left: 10px;
+  font-size: 35px;
+  margin-top: -14px;
+}
+#slider-product .modal3 .input-icon .icons {
+  display: flex;
+  margin-left: 165px;
+  gap: 15px;
+}
+#slider-product .modal3 .input-icon .icons .icon1 {
+  cursor: pointer;
+  color: rgb(140, 139, 139);
+}
+#slider-product .modal3 .input-icon .icon2 {
+  cursor: pointer;
+  color: rgb(140, 139, 139);
+}
 #slider-product .card4 {
   width: 250px;
   height: 375px;
@@ -1029,6 +1428,126 @@
 }
 #slider-product .card4 button i {
   font-size: 14px;
+}
+#slider-product .modal4 {
+  display: flex;
+  width: 900px;
+  height: 550px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: -600px;
+  margin-left: -760px;
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(255, 251, 251);
+}
+#slider-product .modal4 .img img {
+  width: 400px;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+#slider-product .modal4 .iconca {
+  margin-left: 417px;
+  margin-top: -29px;
+}
+#slider-product .modal4 .iconca a {
+  text-decoration: none;
+  color: red;
+  font-size: 40px;
+}
+#slider-product .modal4 .text1 h2 {
+  font-size: 40px;
+}
+#slider-product .modal4 .texts {
+  display: flex;
+}
+#slider-product .modal4 .texts .price1 del {
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(140, 139, 139);
+}
+#slider-product .modal4 .texts .price2 p {
+  color: red;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-top: -8px;
+}
+#slider-product .modal4 .text2 p {
+  font-size: 30px;
+  margin-top: -15px;
+}
+#slider-product .modal4 .border {
+  width: 348px;
+  border: 1px dashed #f6f6f6;
+  margin-top: -5px;
+}
+#slider-product .modal4 .text3 {
+  font-weight: bolder;
+}
+#slider-product .modal4 .text3 p {
+  margin-top: 7px;
+}
+#slider-product .modal4 .text4 p {
+  width: 350px;
+  margin-top: -10px;
+}
+#slider-product .modal4 .border {
+  border: 1px dashed #f6f6f6;
+}
+#slider-product .modal4 .text5 {
+  display: flex;
+  margin-top: 10px;
+}
+#slider-product .modal4 .text5 .text1 p {
+  color: rgb(140, 139, 139);
+}
+#slider-product .modal4 .text5 .text2 p {
+  font-size: 15px;
+  margin-top: 1px;
+  margin-left: 5px;
+}
+#slider-product .modal4 .text6 p {
+  color: rgb(140, 139, 139);
+  margin-top: -10px;
+}
+#slider-product .modal4 .input-icon {
+  display: flex;
+}
+#slider-product .modal4 .input-icon .inputs {
+  display: flex;
+}
+#slider-product .modal4 .input-icon .inputs .minus {
+  cursor: pointer;
+}
+#slider-product .modal4 .input-icon .inputs .minus p {
+  font-size: 50px;
+  margin-top: -26px;
+}
+#slider-product .modal4 .input-icon .inputs input {
+  height: 30px;
+  width: 70px;
+  margin-left: 10px;
+}
+#slider-product .modal4 .input-icon .inputs .plus {
+  cursor: pointer;
+}
+#slider-product .modal4 .input-icon .inputs .plus p {
+  margin-left: 10px;
+  font-size: 35px;
+  margin-top: -14px;
+}
+#slider-product .modal4 .input-icon .icons {
+  display: flex;
+  margin-left: 165px;
+  gap: 15px;
+}
+#slider-product .modal4 .input-icon .icons .icon1 {
+  cursor: pointer;
+  color: rgb(140, 139, 139);
+}
+#slider-product .modal4 .input-icon .icon2 {
+  cursor: pointer;
+  color: rgb(140, 139, 139);
 }
 #slider-product .card5 {
   width: 250px;
@@ -1127,6 +1646,126 @@
 #slider-product .card5 button i {
   font-size: 14px;
 }
+#slider-product .modal5 {
+  display: flex;
+  width: 900px;
+  height: 550px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: -973px;
+  margin-left: 231px;
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(255, 251, 251);
+}
+#slider-product .modal5 .img img {
+  width: 400px;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+#slider-product .modal5 .iconca {
+  margin-left: 417px;
+  margin-top: -29px;
+}
+#slider-product .modal5 .iconca a {
+  text-decoration: none;
+  color: red;
+  font-size: 40px;
+}
+#slider-product .modal5 .text1 h2 {
+  font-size: 40px;
+}
+#slider-product .modal5 .texts {
+  display: flex;
+}
+#slider-product .modal5 .texts .price1 del {
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(140, 139, 139);
+}
+#slider-product .modal5 .texts .price2 p {
+  color: red;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-top: -8px;
+}
+#slider-product .modal5 .text2 p {
+  font-size: 30px;
+  margin-top: -15px;
+}
+#slider-product .modal5 .border {
+  width: 348px;
+  border: 1px dashed #f6f6f6;
+  margin-top: -5px;
+}
+#slider-product .modal5 .text3 {
+  font-weight: bolder;
+}
+#slider-product .modal5 .text3 p {
+  margin-top: 7px;
+}
+#slider-product .modal5 .text4 p {
+  width: 350px;
+  margin-top: -10px;
+}
+#slider-product .modal5 .border {
+  border: 1px dashed #f6f6f6;
+}
+#slider-product .modal5 .text5 {
+  display: flex;
+  margin-top: 10px;
+}
+#slider-product .modal5 .text5 .text1 p {
+  color: rgb(140, 139, 139);
+}
+#slider-product .modal5 .text5 .text2 p {
+  font-size: 15px;
+  margin-top: 1px;
+  margin-left: 5px;
+}
+#slider-product .modal5 .text6 p {
+  color: rgb(140, 139, 139);
+  margin-top: -10px;
+}
+#slider-product .modal5 .input-icon {
+  display: flex;
+}
+#slider-product .modal5 .input-icon .inputs {
+  display: flex;
+}
+#slider-product .modal5 .input-icon .inputs .minus {
+  cursor: pointer;
+}
+#slider-product .modal5 .input-icon .inputs .minus p {
+  font-size: 50px;
+  margin-top: -26px;
+}
+#slider-product .modal5 .input-icon .inputs input {
+  height: 30px;
+  width: 70px;
+  margin-left: 10px;
+}
+#slider-product .modal5 .input-icon .inputs .plus {
+  cursor: pointer;
+}
+#slider-product .modal5 .input-icon .inputs .plus p {
+  margin-left: 10px;
+  font-size: 35px;
+  margin-top: -14px;
+}
+#slider-product .modal5 .input-icon .icons {
+  display: flex;
+  margin-left: 165px;
+  gap: 15px;
+}
+#slider-product .modal5 .input-icon .icons .icon1 {
+  cursor: pointer;
+  color: rgb(140, 139, 139);
+}
+#slider-product .modal5 .input-icon .icon2 {
+  cursor: pointer;
+  color: rgb(140, 139, 139);
+}
 #slider-product .card6 {
   width: 250px;
   height: 375px;
@@ -1223,6 +1862,126 @@
 }
 #slider-product .card6 button i {
   font-size: 14px;
+}
+#slider-product .modal6 {
+  display: flex;
+  width: 900px;
+  height: 550px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: -973px;
+  margin-left: -100px;
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(255, 251, 251);
+}
+#slider-product .modal6 .img img {
+  width: 400px;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+#slider-product .modal6 .iconca {
+  margin-left: 417px;
+  margin-top: -29px;
+}
+#slider-product .modal6 .iconca a {
+  text-decoration: none;
+  color: red;
+  font-size: 40px;
+}
+#slider-product .modal6 .text1 h2 {
+  font-size: 40px;
+}
+#slider-product .modal6 .texts {
+  display: flex;
+}
+#slider-product .modal6 .texts .price1 del {
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(140, 139, 139);
+}
+#slider-product .modal6 .texts .price2 p {
+  color: red;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-top: -8px;
+}
+#slider-product .modal6 .text2 p {
+  font-size: 30px;
+  margin-top: -15px;
+}
+#slider-product .modal6 .border {
+  width: 348px;
+  border: 1px dashed #f6f6f6;
+  margin-top: -5px;
+}
+#slider-product .modal6 .text3 {
+  font-weight: bolder;
+}
+#slider-product .modal6 .text3 p {
+  margin-top: 7px;
+}
+#slider-product .modal6 .text4 p {
+  width: 350px;
+  margin-top: -10px;
+}
+#slider-product .modal6 .border {
+  border: 1px dashed #f6f6f6;
+}
+#slider-product .modal6 .text5 {
+  display: flex;
+  margin-top: 10px;
+}
+#slider-product .modal6 .text5 .text1 p {
+  color: rgb(140, 139, 139);
+}
+#slider-product .modal6 .text5 .text2 p {
+  font-size: 15px;
+  margin-top: 1px;
+  margin-left: 5px;
+}
+#slider-product .modal6 .text6 p {
+  color: rgb(140, 139, 139);
+  margin-top: -10px;
+}
+#slider-product .modal6 .input-icon {
+  display: flex;
+}
+#slider-product .modal6 .input-icon .inputs {
+  display: flex;
+}
+#slider-product .modal6 .input-icon .inputs .minus {
+  cursor: pointer;
+}
+#slider-product .modal6 .input-icon .inputs .minus p {
+  font-size: 50px;
+  margin-top: -26px;
+}
+#slider-product .modal6 .input-icon .inputs input {
+  height: 30px;
+  width: 70px;
+  margin-left: 10px;
+}
+#slider-product .modal6 .input-icon .inputs .plus {
+  cursor: pointer;
+}
+#slider-product .modal6 .input-icon .inputs .plus p {
+  margin-left: 10px;
+  font-size: 35px;
+  margin-top: -14px;
+}
+#slider-product .modal6 .input-icon .icons {
+  display: flex;
+  margin-left: 165px;
+  gap: 15px;
+}
+#slider-product .modal6 .input-icon .icons .icon1 {
+  cursor: pointer;
+  color: rgb(140, 139, 139);
+}
+#slider-product .modal6 .input-icon .icon2 {
+  cursor: pointer;
+  color: rgb(140, 139, 139);
 }
 #slider-product .card7 {
   width: 250px;
@@ -1321,6 +2080,126 @@
 #slider-product .card7 button i {
   font-size: 14px;
 }
+#slider-product .modal7 {
+  display: flex;
+  width: 900px;
+  height: 550px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: -973px;
+  margin-left: -430px;
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(255, 251, 251);
+}
+#slider-product .modal7 .img img {
+  width: 400px;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+#slider-product .modal7 .iconca {
+  margin-left: 417px;
+  margin-top: -29px;
+}
+#slider-product .modal7 .iconca a {
+  text-decoration: none;
+  color: red;
+  font-size: 40px;
+}
+#slider-product .modal7 .text1 h2 {
+  font-size: 40px;
+}
+#slider-product .modal7 .texts {
+  display: flex;
+}
+#slider-product .modal7 .texts .price1 del {
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(140, 139, 139);
+}
+#slider-product .modal7 .texts .price2 p {
+  color: red;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-top: -8px;
+}
+#slider-product .modal7 .text2 p {
+  font-size: 30px;
+  margin-top: -15px;
+}
+#slider-product .modal7 .border {
+  width: 348px;
+  border: 1px dashed #f6f6f6;
+  margin-top: -5px;
+}
+#slider-product .modal7 .text3 {
+  font-weight: bolder;
+}
+#slider-product .modal7 .text3 p {
+  margin-top: 7px;
+}
+#slider-product .modal7 .text4 p {
+  width: 350px;
+  margin-top: -10px;
+}
+#slider-product .modal7 .border {
+  border: 1px dashed #f6f6f6;
+}
+#slider-product .modal7 .text5 {
+  display: flex;
+  margin-top: 10px;
+}
+#slider-product .modal7 .text5 .text1 p {
+  color: rgb(140, 139, 139);
+}
+#slider-product .modal7 .text5 .text2 p {
+  font-size: 15px;
+  margin-top: 1px;
+  margin-left: 5px;
+}
+#slider-product .modal7 .text6 p {
+  color: rgb(140, 139, 139);
+  margin-top: -10px;
+}
+#slider-product .modal7 .input-icon {
+  display: flex;
+}
+#slider-product .modal7 .input-icon .inputs {
+  display: flex;
+}
+#slider-product .modal7 .input-icon .inputs .minus {
+  cursor: pointer;
+}
+#slider-product .modal7 .input-icon .inputs .minus p {
+  font-size: 50px;
+  margin-top: -26px;
+}
+#slider-product .modal7 .input-icon .inputs input {
+  height: 30px;
+  width: 70px;
+  margin-left: 10px;
+}
+#slider-product .modal7 .input-icon .inputs .plus {
+  cursor: pointer;
+}
+#slider-product .modal7 .input-icon .inputs .plus p {
+  margin-left: 10px;
+  font-size: 35px;
+  margin-top: -14px;
+}
+#slider-product .modal7 .input-icon .icons {
+  display: flex;
+  margin-left: 165px;
+  gap: 15px;
+}
+#slider-product .modal7 .input-icon .icons .icon1 {
+  cursor: pointer;
+  color: rgb(140, 139, 139);
+}
+#slider-product .modal7 .input-icon .icon2 {
+  cursor: pointer;
+  color: rgb(140, 139, 139);
+}
 #slider-product .card8 {
   width: 250px;
   height: 375px;
@@ -1417,6 +2296,126 @@
 }
 #slider-product .card8 button i {
   font-size: 14px;
+}
+#slider-product .modal8 {
+  display: flex;
+  width: 900px;
+  height: 550px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-left: -760px;
+  margin-top: -974px;
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(255, 251, 251);
+}
+#slider-product .modal8 .img img {
+  width: 400px;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+#slider-product .modal8 .iconca {
+  margin-left: 417px;
+  margin-top: -29px;
+}
+#slider-product .modal8 .iconca a {
+  text-decoration: none;
+  color: red;
+  font-size: 40px;
+}
+#slider-product .modal8 .text1 h2 {
+  font-size: 40px;
+}
+#slider-product .modal8 .texts {
+  display: flex;
+}
+#slider-product .modal8 .texts .price1 del {
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(140, 139, 139);
+}
+#slider-product .modal8 .texts .price2 p {
+  color: red;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-top: -8px;
+}
+#slider-product .modal8 .text2 p {
+  font-size: 30px;
+  margin-top: -15px;
+}
+#slider-product .modal8 .border {
+  width: 348px;
+  border: 1px dashed #f6f6f6;
+  margin-top: -5px;
+}
+#slider-product .modal8 .text3 {
+  font-weight: bolder;
+}
+#slider-product .modal8 .text3 p {
+  margin-top: 7px;
+}
+#slider-product .modal8 .text4 p {
+  width: 350px;
+  margin-top: -10px;
+}
+#slider-product .modal8 .border {
+  border: 1px dashed #f6f6f6;
+}
+#slider-product .modal8 .text5 {
+  display: flex;
+  margin-top: 10px;
+}
+#slider-product .modal8 .text5 .text1 p {
+  color: rgb(140, 139, 139);
+}
+#slider-product .modal8 .text5 .text2 p {
+  font-size: 15px;
+  margin-top: 1px;
+  margin-left: 5px;
+}
+#slider-product .modal8 .text6 p {
+  color: rgb(140, 139, 139);
+  margin-top: -10px;
+}
+#slider-product .modal8 .input-icon {
+  display: flex;
+}
+#slider-product .modal8 .input-icon .inputs {
+  display: flex;
+}
+#slider-product .modal8 .input-icon .inputs .minus {
+  cursor: pointer;
+}
+#slider-product .modal8 .input-icon .inputs .minus p {
+  font-size: 50px;
+  margin-top: -26px;
+}
+#slider-product .modal8 .input-icon .inputs input {
+  height: 30px;
+  width: 70px;
+  margin-left: 10px;
+}
+#slider-product .modal8 .input-icon .inputs .plus {
+  cursor: pointer;
+}
+#slider-product .modal8 .input-icon .inputs .plus p {
+  margin-left: 10px;
+  font-size: 35px;
+  margin-top: -14px;
+}
+#slider-product .modal8 .input-icon .icons {
+  display: flex;
+  margin-left: 165px;
+  gap: 15px;
+}
+#slider-product .modal8 .input-icon .icons .icon1 {
+  cursor: pointer;
+  color: rgb(140, 139, 139);
+}
+#slider-product .modal8 .input-icon .icon2 {
+  cursor: pointer;
+  color: rgb(140, 139, 139);
 }
 
 #procs {
@@ -1716,8 +2715,14 @@
   font-size: 18px;
   font-weight: bold;
 }
+#footer .sophia .general .contact .icon1 i span {
+  font-size: 12px;
+}
 #footer .sophia .general .contact .icon2 {
   margin-top: 5px;
+}
+#footer .sophia .general .contact .icon2 i span {
+  font-size: 12px;
 }
 #footer .sophia .general .contact .icon3 {
   margin-top: 5px;
@@ -1725,6 +2730,7 @@
 #footer .sophia .general .contact .icon3 i a {
   color: #000;
   text-decoration: none;
+  font-size: 12px;
 }
 #footer .sophia .general .contact .icons {
   display: flex;
