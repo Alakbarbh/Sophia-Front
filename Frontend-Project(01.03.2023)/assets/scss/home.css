@@ -795,13 +795,20 @@
   margin-left: 20px;
 }
 #slider-product .modal1 .iconca {
-  margin-left: 417px;
-  margin-top: -29px;
+  margin-left: 411px;
+  margin-top: -27px;
 }
 #slider-product .modal1 .iconca a {
   text-decoration: none;
-  color: red;
+  color: white;
   font-size: 40px;
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: red;
+}
+#slider-product .modal1 .iconca a i {
+  padding-left: 12px;
+  width: 50px;
 }
 #slider-product .modal1 .text1 h2 {
   font-size: 40px;
@@ -1012,13 +1019,20 @@
   margin-left: 20px;
 }
 #slider-product .modal2 .iconca {
-  margin-left: 417px;
-  margin-top: -29px;
+  margin-left: 411px;
+  margin-top: -27px;
 }
 #slider-product .modal2 .iconca a {
   text-decoration: none;
-  color: red;
+  color: white;
   font-size: 40px;
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: red;
+}
+#slider-product .modal2 .iconca a i {
+  padding-left: 12px;
+  width: 50px;
 }
 #slider-product .modal2 .text1 h2 {
   font-size: 40px;
@@ -1229,13 +1243,20 @@
   margin-left: 20px;
 }
 #slider-product .modal3 .iconca {
-  margin-left: 417px;
-  margin-top: -29px;
+  margin-left: 411px;
+  margin-top: -27px;
 }
 #slider-product .modal3 .iconca a {
   text-decoration: none;
-  color: red;
+  color: white;
   font-size: 40px;
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: red;
+}
+#slider-product .modal3 .iconca a i {
+  padding-left: 12px;
+  width: 50px;
 }
 #slider-product .modal3 .text1 h2 {
   font-size: 40px;
@@ -1446,13 +1467,20 @@
   margin-left: 20px;
 }
 #slider-product .modal4 .iconca {
-  margin-left: 417px;
-  margin-top: -29px;
+  margin-left: 411px;
+  margin-top: -27px;
 }
 #slider-product .modal4 .iconca a {
   text-decoration: none;
-  color: red;
+  color: white;
   font-size: 40px;
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: red;
+}
+#slider-product .modal4 .iconca a i {
+  padding-left: 12px;
+  width: 50px;
 }
 #slider-product .modal4 .text1 h2 {
   font-size: 40px;
@@ -1663,13 +1691,20 @@
   margin-left: 20px;
 }
 #slider-product .modal5 .iconca {
-  margin-left: 417px;
-  margin-top: -29px;
+  margin-left: 411px;
+  margin-top: -27px;
 }
 #slider-product .modal5 .iconca a {
   text-decoration: none;
-  color: red;
+  color: white;
   font-size: 40px;
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: red;
+}
+#slider-product .modal5 .iconca a i {
+  padding-left: 12px;
+  width: 50px;
 }
 #slider-product .modal5 .text1 h2 {
   font-size: 40px;
@@ -1880,13 +1915,20 @@
   margin-left: 20px;
 }
 #slider-product .modal6 .iconca {
-  margin-left: 417px;
-  margin-top: -29px;
+  margin-left: 411px;
+  margin-top: -27px;
 }
 #slider-product .modal6 .iconca a {
   text-decoration: none;
-  color: red;
+  color: white;
   font-size: 40px;
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: red;
+}
+#slider-product .modal6 .iconca a i {
+  padding-left: 12px;
+  width: 50px;
 }
 #slider-product .modal6 .text1 h2 {
   font-size: 40px;
@@ -2097,13 +2139,20 @@
   margin-left: 20px;
 }
 #slider-product .modal7 .iconca {
-  margin-left: 417px;
-  margin-top: -29px;
+  margin-left: 411px;
+  margin-top: -27px;
 }
 #slider-product .modal7 .iconca a {
   text-decoration: none;
-  color: red;
+  color: white;
   font-size: 40px;
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: red;
+}
+#slider-product .modal7 .iconca a i {
+  padding-left: 12px;
+  width: 50px;
 }
 #slider-product .modal7 .text1 h2 {
   font-size: 40px;
@@ -2314,13 +2363,20 @@
   margin-left: 20px;
 }
 #slider-product .modal8 .iconca {
-  margin-left: 417px;
-  margin-top: -29px;
+  margin-left: 411px;
+  margin-top: -27px;
 }
 #slider-product .modal8 .iconca a {
   text-decoration: none;
-  color: red;
+  color: white;
   font-size: 40px;
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: red;
+}
+#slider-product .modal8 .iconca a i {
+  padding-left: 12px;
+  width: 50px;
 }
 #slider-product .modal8 .text1 h2 {
   font-size: 40px;
