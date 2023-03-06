@@ -500,55 +500,64 @@
   width: 100%;
 }
 
-#map {
-  margin-top: 80px;
-}
-#map .maps {
-  width: 100%;
-  height: 1100px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-#map .maps iframe {
-  width: 97%;
-  margin-left: 20px;
-  margin-top: 20px;
-}
-#map .maps #contact {
-  margin-left: 20px;
-  margin-top: 15px;
-}
-#map .maps #contact .icon {
+#main .about {
   display: flex;
-  margin-top: 30px;
-}
-#map .maps #contact .icon i {
-  color: #EF6C00;
-  font-size: 22px;
-}
-#map .maps #contact .icon .address p {
-  font-size: 22px;
-  font-weight: 500;
-  margin-left: 10px;
-  margin-top: -15px;
-}
-#map .maps #contact .icon .address p:nth-child(2) {
-  color: #444;
-  font-size: 15px;
-  font-weight: 400;
-  margin-top: -23px;
-}
-#map .maps #contact .border {
   width: 100%;
-  color: #222222;
-  margin-top: 10px;
+  height: 60px;
 }
-#map .maps .inputs-area form .group {
-  width: 98%;
+#main .about .about-us p {
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 100px;
+}
+#main .about .home-about {
+  padding-top: 20px;
+  display: flex;
+  margin-left: 1100px;
+}
+#main .about .home-about .home a {
+  text-decoration: none;
+  color: rgb(127, 126, 126);
+  font-size: 14px;
+  font-weight: bold;
+}
+#main .about .home-about .drop p {
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(127, 126, 126);
+}
+#main .about .home-about .about p {
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(127, 126, 126);
+}
+#main .border {
+  width: 100%;
+}
+
+.inputs-area {
+  margin-top: 60px;
+}
+.inputs-area h2 {
+  font-weight: bold;
+}
+.inputs-area form .texts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inputs-area form .texts .group {
+  width: 49%;
+}
+.inputs-area form .group {
   position: relative;
   margin-top: 30px;
 }
-#map .maps .inputs-area form .group input,
-#map .maps .inputs-area form .group textarea {
+.inputs-area form .group input,
+.inputs-area form .group textarea {
   font-size: 14px;
   display: block;
   width: 100%;
@@ -556,26 +565,26 @@
   border-bottom: 1px solid #949494;
   outline: none;
 }
-#map .maps .inputs-area form .group input:focus ~ label, #map .maps .inputs-area form .group input:valid ~ label,
-#map .maps .inputs-area form .group textarea:focus ~ label,
-#map .maps .inputs-area form .group textarea:valid ~ label {
+.inputs-area form .group input:focus ~ label, .inputs-area form .group input:valid ~ label,
+.inputs-area form .group textarea:focus ~ label,
+.inputs-area form .group textarea:valid ~ label {
   top: -8px;
   font-size: 10px;
 }
-#map .maps .inputs-area form .group input:focus ~ .bar::before, #map .maps .inputs-area form .group input:focus ~ .bar::after,
-#map .maps .inputs-area form .group textarea:focus ~ .bar::before,
-#map .maps .inputs-area form .group textarea:focus ~ .bar::after {
+.inputs-area form .group input:focus ~ .bar::before, .inputs-area form .group input:focus ~ .bar::after,
+.inputs-area form .group textarea:focus ~ .bar::before,
+.inputs-area form .group textarea:focus ~ .bar::after {
   width: 50%;
 }
-#map .maps .inputs-area form .group input {
+.inputs-area form .group input {
   padding: 10px 0 10px 5px;
 }
-#map .maps .inputs-area form .group textarea {
+.inputs-area form .group textarea {
   height: 110px;
   padding: 10px 0 0 5px;
   resize: vertical;
 }
-#map .maps .inputs-area form .group label {
+.inputs-area form .group label {
   color: #999;
   font-size: 14px;
   position: absolute;
@@ -586,12 +595,12 @@
   -moz-transition: 0.2s ease all;
   -webkit-transition: 0.2s ease all;
 }
-#map .maps .inputs-area form .group .bar {
+.inputs-area form .group .bar {
   position: relative;
   display: block;
   width: 100%;
 }
-#map .maps .inputs-area form .group .bar::before, #map .maps .inputs-area form .group .bar::after {
+.inputs-area form .group .bar::before, .inputs-area form .group .bar::after {
   content: "";
   height: 2px;
   width: 0;
@@ -603,20 +612,20 @@
   -webkit-transition: 0.2s ease all;
   z-index: 1;
 }
-#map .maps .inputs-area form .group .bar::before {
+.inputs-area form .group .bar::before {
   left: 50%;
 }
-#map .maps .inputs-area form .group .bar::after {
+.inputs-area form .group .bar::after {
   right: 50%;
 }
-#map .maps .inputs-area form .group .validation {
+.inputs-area form .group .validation {
   font-size: 10px;
   color: red;
   transition: 0.4s;
   opacity: 0;
 }
-#map .maps .inputs-area form button {
-  width: 100px;
+.inputs-area form button {
+  width: 180px;
   height: 45px;
   color: white;
   border-radius: 5px;
@@ -628,146 +637,26 @@
   cursor: pointer;
 }
 
-#footer .sophia {
-  background-color: #F7F7F7;
+.order {
   width: 100%;
-  height: 400px;
-  margin-top: 50px;
+  height: 550px;
+  border: 1px solid rgb(223, 222, 222);
+  margin-top: 100px;
+  padding: 20px;
 }
-#footer .sophia .general {
-  display: flex;
-  margin-left: 100px;
+.order .texts span {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 20px;
 }
-#footer .sophia .general .logo-text {
-  margin-top: 70px;
+.order .texts span:nth-child(2) {
+  margin-left: 210px;
+  font-weight: 500;
+  font-size: 16px;
 }
-#footer .sophia .general .logo-text .text1 {
-  font-size: 17px;
+.order .border {
   margin-top: 10px;
 }
-#footer .sophia .general .logo-text .text1 p {
-  margin-bottom: -1px;
-}
-#footer .sophia .general .logo-text .text1 p:nth-child(4) {
-  margin-bottom: 5px;
-}
-#footer .sophia .general .logo-text .text1 p:nth-child(5) {
-  cursor: pointer;
-}
-#footer .sophia .general .services {
-  margin-top: 75px;
-  margin-left: 40px;
-}
-#footer .sophia .general .services p1 {
-  font-size: 18px;
-  font-weight: bold;
-}
-#footer .sophia .general .services p {
-  margin-bottom: 5px;
-  margin-top: 10px;
-  cursor: pointer;
-}
-#footer .sophia .general .subscribe {
-  margin-top: 75px;
-  margin-left: 90px;
-}
-#footer .sophia .general .subscribe p1 {
-  font-size: 18px;
-  font-weight: bold;
-}
-#footer .sophia .general .subscribe input {
-  width: 300px;
-  height: 50px;
-  border-radius: 5px;
-  border: 1px solid rgb(204, 202, 202);
-}
-#footer .sophia .general .subscribe .button button {
-  background-color: #EF6C00;
-  width: 300px;
-  height: 50px;
-  border-radius: 3px;
-  border: none;
+.order p {
   margin-top: 20px;
-}
-#footer .sophia .general .subscribe .button button span {
-  color: white;
-  font-weight: bold;
-}
-#footer .sophia .general .contact {
-  margin-top: 75px;
-  margin-left: 25px;
-}
-#footer .sophia .general .contact p {
-  font-size: 18px;
-  font-weight: bold;
-}
-#footer .sophia .general .contact .icon1 i span {
-  font-size: 12px;
-}
-#footer .sophia .general .contact .icon2 {
-  margin-top: 5px;
-}
-#footer .sophia .general .contact .icon2 i span {
-  font-size: 12px;
-}
-#footer .sophia .general .contact .icon3 {
-  margin-top: 5px;
-}
-#footer .sophia .general .contact .icon3 i a {
-  color: #000;
-  text-decoration: none;
-  font-size: 12px;
-}
-#footer .sophia .general .contact .icons {
-  display: flex;
-  margin-top: 25px;
-  gap: 20px;
-}
-#footer .sophia .general .contact .icons .icons1 {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  border: 1px solid black;
-}
-#footer .sophia .general .contact .icons .icons1 a {
-  color: #000;
-}
-#footer .sophia .general .contact .icons .icons1 a i {
-  margin-left: 9px;
-}
-#footer .sophia .general .contact .icons .icons2 {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  border: 1px solid black;
-}
-#footer .sophia .general .contact .icons .icons2 a {
-  color: #000;
-}
-#footer .sophia .general .contact .icons .icons2 a i {
-  margin-left: 8px;
-}
-#footer .sophia .general .contact .icons .icons3 {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  border: 1px solid black;
-}
-#footer .sophia .general .contact .icons .icons3 a {
-  color: #000;
-}
-#footer .sophia .general .contact .icons .icons3 a i {
-  margin-left: 6px;
-}
-#footer .sophia .general .contact .icons .icons4 {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  border: 1px solid black;
-}
-#footer .sophia .general .contact .icons .icons4 a {
-  color: #000;
-}
-#footer .sophia .general .contact .icons .icons4 a i {
-  margin-left: 5px;
-}/*# sourceMappingURL=contact.css.map */
+}/*# sourceMappingURL=checkout.css.map */
