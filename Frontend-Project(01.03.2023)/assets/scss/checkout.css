@@ -580,9 +580,8 @@
   padding: 10px 0 10px 5px;
 }
 .inputs-area form .group textarea {
-  height: 110px;
+  height: 50px;
   padding: 10px 0 0 5px;
-  resize: vertical;
 }
 .inputs-area form .group label {
   color: #999;
@@ -639,7 +638,7 @@
 
 .order {
   width: 100%;
-  height: 550px;
+  height: 470px;
   border: 1px solid rgb(223, 222, 222);
   margin-top: 100px;
   padding: 20px;
@@ -659,4 +658,50 @@
 }
 .order p {
   margin-top: 20px;
+}
+.order .text {
+  margin-top: 20px;
+  display: flex;
+}
+.order .text .text1 span {
+  font-weight: 500;
+}
+.order .text .text2 {
+  margin-left: 240px;
+}
+.order .text .text2 span {
+  color: red;
+  font-size: 20px;
+}
+.order .borders1 {
+  margin-top: 35px;
+}
+.order .text11 {
+  margin-top: 20px;
+  display: flex;
+}
+.order .text11 .text1 span {
+  font-weight: 500;
+}
+.order .text11 .text2 {
+  margin-left: 265px;
+}
+.order .text11 .text2 span {
+  color: red;
+  font-size: 20px;
+}
+.order .check {
+  margin-top: 30px;
+}
+.order button {
+  background-color: #EF6C00;
+  border: none;
+  width: 155px;
+  height: 45px;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+.order button span {
+  color: white;
+  font-weight: 500;
 }/*# sourceMappingURL=checkout.css.map */
