@@ -701,48 +701,56 @@
 
 #image-our {
     margin-top: 60px;
-    .text1{
+
+    .text1 {
         margin-left: 100px;
-        h2{
+
+        h2 {
             font-weight: bold;
             font-size: 35px;
             margin-bottom: -5px;
         }
     }
-    .text2{
-        p{
+
+    .text2 {
+        p {
             width: 650px;
             margin-left: 100px;
             margin-top: 30px;
         }
     }
-    .acccardions{
+
+    .acccardions {
         width: 650px;
         margin-left: 100px;
-        .accardion1{
+
+        .accardion1 {
             border-radius: 5px !important;
-            .button1{
+
+            .button1 {
+                font-weight: bold !important;
+                font-size: 17px !important;
+            }
+        }
+
+        .accardion2 {
+            border: 1px solid rgb(236, 235, 235) !important;
+            margin-top: 20px;
+            border-radius: 5px !important;
+
+            .button2 {
                 font-weight: bold;
                 font-size: 17px;
             }
         }
 
-        .accardion2{
-            border: 1px solid rgb(236, 235, 235) !important ;
+        .accardion3 {
             margin-top: 20px;
+            border: 1px solid black;
             border-radius: 5px !important;
-            .button2{
-                font-weight: bold;
-                font-size: 17px;
-            }
-        }
+            border: 1px solid rgb(236, 235, 235) !important;
 
-        .accardion3{
-            margin-top: 20px;
-            border: 1px solid black ;
-            border-radius: 5px !important;
-            border: 1px solid rgb(236, 235, 235) !important ;
-            .button3{
+            .button3 {
                 font-weight: bold;
                 font-size: 17px;
             }
@@ -752,4 +760,134 @@
 
 body {
     height: 3000px;
+}
+
+
+#our-great {
+    width: 100%;
+    background-color: #F5F5F5;
+    height: 430px;
+    margin-top: 70px;
+
+    .great {
+
+        .text1 {
+            h1 {
+                text-align: center;
+                font-weight: 500;
+                padding-top: 40px;
+            }
+        }
+
+        .text2 {
+            text-align: center;
+
+            p {
+                color: rgb(137, 136, 136);
+            }
+        }
+
+        .cards {
+            display: flex;
+            margin-left: 10px;
+
+            .card1 {
+                background-color: white;
+                width: 410px;
+                height: 220px;
+                margin-left: 130px;
+                margin-top: 20px;
+
+                .icon {
+                    margin-top: 50px;
+                    margin-left: 20px;
+
+                    i {
+                        font-size: 40px;
+                        color: #EF6C00;
+                    }
+                }
+
+                .tex1 {
+                    margin-top: 10px;
+                    width: 370px;
+                    h4 {
+                        
+                        margin-left: 20px;
+                    }
+                }
+                .tex2{
+                    margin-left: 20px;
+                    span{
+
+                    }
+                }
+            }
+
+            .card2 {
+                margin-left: 25px;
+                background-color: white;
+                width: 410px;
+                height: 220px;
+                margin-top: 20px;
+                .icon {
+                    margin-top: 50px;
+                    margin-left: 20px;
+
+                    i {
+                        font-size: 40px;
+                        color: #EF6C00;
+                    }
+                }
+
+                .tex1 {
+                    margin-top: 10px;
+                    width: 370px;
+                    h4 {
+                        
+                        margin-left: 20px;
+                    }
+                }
+                .tex2{
+                    margin-left: 20px;
+                    span{
+
+                    }
+                }
+            }
+
+            .card3 {
+                margin-left: 25px;
+                background-color: white;
+                width: 410px;
+                height: 220px;
+                margin-top: 20px;
+                .icon {
+                    margin-top: 50px;
+                    margin-left: 20px;
+
+                    i {
+                        font-size: 40px;
+                        color: #EF6C00;
+                    }
+                }
+
+                .tex1 {
+                    margin-top: 10px;
+                    width: 370px;
+                    h4 {
+                        
+                        margin-left: 20px;
+                    }
+                }
+                .tex2{
+                    margin-left: 20px;
+                    span{
+
+                    }
+                }
+
+            }
+        }
+    }
 }

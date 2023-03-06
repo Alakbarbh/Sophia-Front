@@ -524,8 +524,8 @@
   border-radius: 5px !important;
 }
 #image-our .acccardions .accardion1 .button1 {
-  font-weight: bold;
-  font-size: 17px;
+  font-weight: bold !important;
+  font-size: 17px !important;
 }
 #image-our .acccardions .accardion2 {
   border: 1px solid rgb(236, 235, 235) !important;
@@ -549,4 +549,101 @@
 
 body {
   height: 3000px;
+}
+
+#our-great {
+  width: 100%;
+  background-color: #F5F5F5;
+  height: 430px;
+  margin-top: 70px;
+}
+#our-great .great .text1 h1 {
+  text-align: center;
+  font-weight: 500;
+  padding-top: 40px;
+}
+#our-great .great .text2 {
+  text-align: center;
+}
+#our-great .great .text2 p {
+  color: rgb(137, 136, 136);
+}
+#our-great .great .cards {
+  display: flex;
+  margin-left: 10px;
+}
+#our-great .great .cards .card1 {
+  background-color: white;
+  width: 410px;
+  height: 220px;
+  margin-left: 130px;
+  margin-top: 20px;
+}
+#our-great .great .cards .card1 .icon {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+#our-great .great .cards .card1 .icon i {
+  font-size: 40px;
+  color: #EF6C00;
+}
+#our-great .great .cards .card1 .tex1 {
+  margin-top: 10px;
+  width: 370px;
+}
+#our-great .great .cards .card1 .tex1 h4 {
+  margin-left: 20px;
+}
+#our-great .great .cards .card1 .tex2 {
+  margin-left: 20px;
+}
+#our-great .great .cards .card2 {
+  margin-left: 25px;
+  background-color: white;
+  width: 410px;
+  height: 220px;
+  margin-top: 20px;
+}
+#our-great .great .cards .card2 .icon {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+#our-great .great .cards .card2 .icon i {
+  font-size: 40px;
+  color: #EF6C00;
+}
+#our-great .great .cards .card2 .tex1 {
+  margin-top: 10px;
+  width: 370px;
+}
+#our-great .great .cards .card2 .tex1 h4 {
+  margin-left: 20px;
+}
+#our-great .great .cards .card2 .tex2 {
+  margin-left: 20px;
+}
+#our-great .great .cards .card3 {
+  margin-left: 25px;
+  background-color: white;
+  width: 410px;
+  height: 220px;
+  margin-top: 20px;
+}
+#our-great .great .cards .card3 .icon {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+#our-great .great .cards .card3 .icon i {
+  font-size: 40px;
+  color: #EF6C00;
+}
+#our-great .great .cards .card3 .tex1 {
+  margin-top: 10px;
+  width: 370px;
+}
+#our-great .great .cards .card3 .tex1 h4 {
+  margin-left: 20px;
+}
+#our-great .great .cards .card3 .tex2 {
+  margin-left: 20px;
 }/*# sourceMappingURL=about.css.map */
