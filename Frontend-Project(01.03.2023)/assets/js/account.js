@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function(){
     $(document).on("click", ".item1", function () {
         let usdText = $(".item1").children().eq(0).text();
         $(".drop").children().eq(0).text(usdText)
@@ -14,7 +14,7 @@ $(document).ready(function () {
         $(".spCard-dropdown").toggleClass("d-none");
     });
 
-
+    
     $(document).on("click", ".item3", function () {
         let btnText = $(this).html();
         $(".drop1").children().eq(0).html(btnText);
@@ -39,6 +39,7 @@ $(document).ready(function () {
         let btnText = $(this).html();
         $(".drop1").children().eq(0).html(btnText);
     })
+
 
 
     let inputs = document.querySelectorAll("form .inputs input");
@@ -133,5 +134,3 @@ $(document).ready(function () {
     })
 
 })
-
-

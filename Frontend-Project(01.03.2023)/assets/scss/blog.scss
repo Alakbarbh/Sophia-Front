@@ -546,73 +546,7 @@
 
 }
 
-// #nav-down {
-//     height: 65px;
-//     background-color: #F3F3F3;
 
-//     .down {
-//         display: flex;
-//         height: 65px;
-//         position: relative;
-
-//         a {
-//             text-decoration: none;
-//             color: black;
-//         }
-
-//         .item {
-//             font-weight: 600;
-//             font-size: 16px;
-//             width: 155px;
-//             height: 100%;
-//             display: flex;
-//             justify-content: center;
-//             align-items: center;
-//             transition: all 0.4s;
-
-//             &:hover {
-//                 background-color: rgb(217 213 213 / 50%);
-//             }
-//         }
-
-//         .pages-list {
-//             display: flex;
-//             flex-direction: column;
-//             width: 200px;
-//             position: absolute;
-//             top: 60px;
-//             left: 500px;
-//             padding: 3px 0 3px 0;
-
-//             border: 1px solid white;
-//             border-radius: 5px;
-//             box-shadow: rgb(0 0 0 / 8%) 0px 5px 15px;
-
-//             a {
-//                 user-select: none;
-//                 cursor: pointer;
-
-//                 border-top: 1px solid #0000000a;
-//                 line-height: 48px;
-//                 height: 48px;
-//                 text-align: left;
-//                 text-decoration: none;
-//                 width: 100%;
-//                 background-color: white;
-
-//                 &:hover {
-//                     background-color: rgb(247, 247, 247)
-//                 }
-
-//                 p {
-//                     margin-left: 15px;
-//                 }
-//             }
-
-
-//         }
-//     }
-// }
 
 .navbarr {
     background-color: #FEFEFE;

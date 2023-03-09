@@ -509,6 +509,9 @@
   border-bottom-style: solid;
   border-color: black;
 }
+#products tbody tr:nth-child(2) td:nth-child(6) a {
+  color: white !important;
+}
 #products tbody td {
   text-align: center;
   width: 203px;

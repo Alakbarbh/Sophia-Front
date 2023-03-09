@@ -706,7 +706,6 @@
 }
 
 
-
 #main {
 
     .about {
@@ -766,81 +765,48 @@
 }
 
 
-#main {
-    .about {
-        display: flex;
-        width: 100%;
-        height: 60px;
-
-        .about-us {
-
-            p {
-                padding-top: 20px;
-                font-size: 14px;
-                font-weight: bold;
-                padding-left: 100px;
-            }
-        }
-
-        .home-about {
-            padding-top: 20px;
-            display: flex;
-            margin-left: 1100px;
-
-            .home {
-                a {
-                    text-decoration: none;
-                    color: rgb(127, 126, 126);
-                    font-size: 14px;
-                    font-weight: bold;
-                }
-            }
-
-            .drop {
-
-                p {
-                    padding-left: 10px;
-                    font-size: 14px;
-                    font-weight: bold;
-                    color: rgb(127, 126, 126);
-                }
-            }
-
-            .about {
-
-                p {
-                    padding-left: 10px;
-                    font-size: 14px;
-                    font-weight: bold;
-                    color: rgb(127, 126, 126);
-                }
-            }
-        }
-    }
-
-    .border {
-        width: 100%;
-    }
-}
 
 
 .inputs-area {
-    margin-top: 60px;
 
-    h2 {
-        font-weight: bold;
+
+    h3 {
+        position: relative;
+        font-size: 28px;
+    text-align: left;
+    color: #383838;
+    font-weight: 500;
+    font-family: Roboto,Helvetica Neue,sans-serif;
+        &::before {
+            content: "";
+            left: 0;
+            position: absolute;
+            width: 100%;
+            height: 0.0625rem;
+            bottom: -0.65625rem;
+            background-color: #e5e5e5;
+        }
+
+        &::after {
+            content: "";
+            left: 0;
+            position: absolute;
+            width: 2.5rem;
+            height: 0.125rem;
+            background-color: #333;
+            bottom: -0.6875rem;
+        }
     }
 
     form {
-
-        .texts {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-
-            .group {
-                width: 49%;
-            }
+        p {
+            position: relative;
+            top: 20px;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 26px;
+            color: rgba(0,0,0,.87);
+            font-family: Roboto,Helvetica Neue,sans-serif;
         }
 
         .group {
@@ -873,9 +839,9 @@
             }
 
             textarea {
-                height: 50px;
+                height: 110px;
                 padding: 10px 0 0 5px;
-
+                resize: none;
             }
 
             label {
@@ -927,158 +893,36 @@
         }
 
         button {
-            width: 180px;
+            width: 100px;
             height: 45px;
             color: white;
             border-radius: 5px;
             border: none;
-            margin-top: 40px;
+            margin-top: 15px;
             background-color: #ef6c00;
             margin-bottom: 20px;
-            font-weight: bold;
+            font-weight: 500;
             cursor: pointer;
         }
-    }
-}
 
+        .btnRegister {
 
-
-
-.order {
-    width: 100%;
-    height: 550px;
-    border: 1px solid rgb(223, 222, 222);
-    margin-top: 100px;
-    padding: 20px;
-
-
-    .texts {
-        span {
-            font-size: 20px;
-            font-weight: 500;
-            margin-left: 20px;
-
-            &:nth-child(2) {
-                margin-left: 210px;
-                font-weight: 500;
-                font-size: 16px;
-            }
-        }
-    }
-
-    .border {
-        margin-top: 20px;
-
-    }
-
-    p {
-        margin-top: 20px;
-    }
-
-    .text {
-        margin-top: 20px;
-        display: flex;
-
-        .text1 {
-
-            span {
-                font-weight: 500;
-            }
-        }
-
-        .text2 {
-            margin-left: 240px;
-
-            span {
-                color: red;
-                font-size: 20px;
-            }
-        }
-    }
-
-    .borders1 {
-        margin-top: 35px;
-
-    }
-
-
-    .text11 {
-        margin-top: 30px;
-        display: flex;
-
-        .text1 {
-
-            span {
-                font-weight: 500;
-            }
-        }
-
-        .text2 {
-            margin-left: 265px;
-
-            span {
-                color: red;
-                font-size: 20px;
-            }
-        }
-    }
-
-    .check {
-        margin-top: 50px;
-
-    }
-
-
-
-    button {
-        background-color: #EF6C00;
-        border: none;
-        width: 155px;
-        height: 45px;
-        border-radius: 3px;
-        margin-top: 50px;
-
-        span {
+            width: 100px;
+            height: 45px;
             color: white;
+            border-radius: 5px;
+            border: none;
+            margin-top: 50px;
+            background-color: #ef6c00;
+            margin-bottom: 20px;
             font-weight: 500;
-        }
-    }
-
-
-    .payment {
-        gap: 5px;
-        display: inline-grid;
-        margin-top: 35px;
-
-
-        .bank {
-            gap: 10px;
-            display: flex;
-            align-items: center;
-
-            span {
-                font-weight: 400;
-                font-size: 14px;
-                color: gray;
-                font-family: revert;
-            }
-
-        }
-
-        input {
-            transition: accent-color ease 280ms;
-            accent-color: #F3392C;
             cursor: pointer;
-
-            height: 30px;
-            width: 20px;
         }
 
-
-
     }
-}
 
+
+}
 
 
 #footer {
@@ -1295,3 +1139,4 @@
         }
     }
 }
+

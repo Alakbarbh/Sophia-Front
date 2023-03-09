@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
 #up-menu {
   display: flex;
   height: 65px;
@@ -778,16 +792,24 @@
 #slider-product .card1 button i {
   font-size: 14px;
 }
+#slider-product .moddal1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
 #slider-product .modal1 {
   display: flex;
   width: 900px;
   height: 550px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin-left: 230px;
-  margin-top: -600px;
-  position: absolute;
-  z-index: 1;
+  top: 10%;
+  left: 20%;
   background-color: rgb(255, 251, 251);
+  position: fixed;
 }
 #slider-product .modal1 .img img {
   width: 400px;
@@ -883,6 +905,7 @@
   height: 30px;
   width: 70px;
   margin-left: 10px;
+  text-align: center;
 }
 #slider-product .modal1 .input-icon .inputs .plus {
   cursor: pointer;
@@ -1002,16 +1025,24 @@
 #slider-product .card2 button i {
   font-size: 14px;
 }
+#slider-product .moddal2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
 #slider-product .modal2 {
   display: flex;
   width: 900px;
   height: 550px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin-top: -600px;
-  margin-left: -100px;
-  position: absolute;
-  z-index: 1;
+  top: 10%;
+  left: 20%;
   background-color: rgb(255, 251, 251);
+  position: fixed;
 }
 #slider-product .modal2 .img img {
   width: 400px;
@@ -1107,6 +1138,7 @@
   height: 30px;
   width: 70px;
   margin-left: 10px;
+  text-align: center;
 }
 #slider-product .modal2 .input-icon .inputs .plus {
   cursor: pointer;
@@ -1226,16 +1258,24 @@
 #slider-product .card3 button i {
   font-size: 14px;
 }
+#slider-product .moddal3 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
 #slider-product .modal3 {
   display: flex;
   width: 900px;
   height: 550px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin-top: -600px;
-  margin-left: -430px;
-  position: absolute;
-  z-index: 1;
+  top: 10%;
+  left: 20%;
   background-color: rgb(255, 251, 251);
+  position: fixed;
 }
 #slider-product .modal3 .img img {
   width: 400px;
@@ -1450,16 +1490,24 @@
 #slider-product .card4 button i {
   font-size: 14px;
 }
+#slider-product .moddal4 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
 #slider-product .modal4 {
   display: flex;
   width: 900px;
   height: 550px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin-top: -600px;
-  margin-left: -760px;
-  position: absolute;
-  z-index: 1;
+  top: 10%;
+  left: 20%;
   background-color: rgb(255, 251, 251);
+  position: fixed;
 }
 #slider-product .modal4 .img img {
   width: 400px;
@@ -1674,16 +1722,24 @@
 #slider-product .card5 button i {
   font-size: 14px;
 }
+#slider-product .moddal5 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
 #slider-product .modal5 {
   display: flex;
   width: 900px;
   height: 550px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin-top: -973px;
-  margin-left: 231px;
-  position: absolute;
-  z-index: 1;
+  top: 10%;
+  left: 20%;
   background-color: rgb(255, 251, 251);
+  position: fixed;
 }
 #slider-product .modal5 .img img {
   width: 400px;
@@ -1898,16 +1954,24 @@
 #slider-product .card6 button i {
   font-size: 14px;
 }
+#slider-product .moddal6 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
 #slider-product .modal6 {
   display: flex;
   width: 900px;
   height: 550px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin-top: -973px;
-  margin-left: -100px;
-  position: absolute;
-  z-index: 1;
+  top: 10%;
+  left: 20%;
   background-color: rgb(255, 251, 251);
+  position: fixed;
 }
 #slider-product .modal6 .img img {
   width: 400px;
@@ -2122,16 +2186,24 @@
 #slider-product .card7 button i {
   font-size: 14px;
 }
+#slider-product .moddal7 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
 #slider-product .modal7 {
   display: flex;
   width: 900px;
   height: 550px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin-top: -973px;
-  margin-left: -430px;
-  position: absolute;
-  z-index: 1;
+  top: 10%;
+  left: 20%;
   background-color: rgb(255, 251, 251);
+  position: fixed;
 }
 #slider-product .modal7 .img img {
   width: 400px;
@@ -2346,16 +2418,24 @@
 #slider-product .card8 button i {
   font-size: 14px;
 }
+#slider-product .moddal8 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
 #slider-product .modal8 {
   display: flex;
   width: 900px;
   height: 550px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin-left: -760px;
-  margin-top: -974px;
-  position: absolute;
-  z-index: 1;
+  top: 10%;
+  left: 20%;
   background-color: rgb(255, 251, 251);
+  position: fixed;
 }
 #slider-product .modal8 .img img {
   width: 400px;
