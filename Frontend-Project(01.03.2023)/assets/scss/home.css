@@ -2634,6 +2634,14 @@ body {
   color: #9194a1;
 }
 
+.slick-slide {
+  width: 256px !important;
+}
+
+.slick-track {
+  width: 2048px !important;
+}
+
 .main span {
   color: #736c6c;
 }
@@ -2730,12 +2738,12 @@ body {
   display: none;
 }
 .product-card .icons i {
+  transition: all 0.5s;
   font-size: 20px;
   cursor: pointer;
 }
 .product-card .icons i:hover {
   color: #EF6C00;
-  transition: all 0.4s;
 }
 .product-card .icons .added {
   color: #EF6C00;
@@ -2952,7 +2960,7 @@ body {
 #procs .newlaptops .img img {
   width: 450px;
   height: 450px;
-  margin-left: 140px;
+  margin-left: 190px;
 }
 #procs .tablets-new {
   display: flex;

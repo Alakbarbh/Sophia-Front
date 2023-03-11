@@ -134,7 +134,7 @@ $(document).ready(function () {
     getBasketCount();
 
 
-    //basket icon 
+    
 
     $(document).on("click", "#down-menu .cart", function (e) {
         e.preventDefault()
@@ -148,7 +148,7 @@ $(document).ready(function () {
 
 
 
-    //Check-card
+    
 
     function chekCard() {
         let chekCard = document.querySelector("#down-menu .chek-card-item")
@@ -182,7 +182,7 @@ $(document).ready(function () {
     chekCard()
 
 
-    //checkCard totalcheck
+    
 
     function subTotal() {
         let sum = 0;
@@ -198,7 +198,7 @@ $(document).ready(function () {
 
 
 
-    //delete from check card
+    
 
     function deleteFromChekCard(id) {
         products = products.filter(m => m.id != id)
@@ -219,8 +219,7 @@ $(document).ready(function () {
                 let id = this.parentNode.parentNode.parentNode.getAttribute("data-id")
                 deleteFromChekCard(id);
                 this.parentNode.parentNode.remove();
-                // this.parentNode.parentNode.previousElementSibling.classList.add("d-none");
-                // document.querySelector(".border").classList.add("d-none");
+                
 
 
                 if (products.length == 0) {
@@ -235,5 +234,13 @@ $(document).ready(function () {
 
     deleteIcons();
 
+
+    document.addEventListener("click", function (e) {
+        if(!!!e.target.closest(".basketicon")){
+            if (!$(".chek-card-box").hasClass("d-none")) {
+                $(".chek-card-box").addClass("d-none")
+            }
+        }
+    })
 
 })

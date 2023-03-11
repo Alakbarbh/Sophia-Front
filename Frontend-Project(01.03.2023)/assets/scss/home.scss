@@ -3864,6 +3864,14 @@ body {
     color: $color-blue-gray;
 }
 
+
+.slick-slide{
+    width: 256px !important;
+}
+.slick-track{
+    width: 2048px !important;
+}
+
 .main {
     span {
         color: #736c6c;
@@ -3981,11 +3989,12 @@ body {
         right: 20px;
         display: none;
         i {
+            transition: all 0.5s;
             font-size: 20px;
             cursor: pointer;
             &:hover {
                 color: #EF6C00;
-                transition: all 0.4s;
+                
             }
         }
         .added{
@@ -4309,7 +4318,7 @@ body {
             img {
                 width: 450px;
                 height: 450px;
-                margin-left: 140px;
+                margin-left: 190px;
             }
         }
 

@@ -65,7 +65,7 @@ $(document).ready(function(){
 
 
 
-    //get-basket product
+  
 
 
     let tableBody = document.querySelector("#products .basket-products .table tbody");
@@ -109,7 +109,7 @@ $(document).ready(function(){
     getBasketDatas();
 
 
-    //alert
+  
     function showAlert() {
 
         document.querySelector(".basket-products .table").classList.add("d-none");
@@ -118,7 +118,7 @@ $(document).ready(function(){
     }
 
 
-    //basket delete
+  
 
 
     function deleteIdProductFromBasket(id) {
@@ -164,7 +164,7 @@ $(document).ready(function(){
 
     deleteIcon();
 
-    //basket total
+   
 
     function showTotalPrice() {
         let total = document.querySelector("#products .table tr td:nth-child(5) span");
@@ -262,7 +262,7 @@ $(document).ready(function(){
 
 
 
-    //Check-card
+    
 
     function chekCard() {
         let chekCard = document.querySelector("#down-menu .chek-card-item")
@@ -299,7 +299,7 @@ $(document).ready(function(){
 
 
 
-    //checkCard total
+ 
 
     function subTotal() {
         let sum = 0;
@@ -315,7 +315,7 @@ $(document).ready(function(){
 
 
 
-    //delete from check card
+    
 
     function deleteFromChekCard(id) {
         products = products.filter(m => m.id != id)
@@ -360,4 +360,12 @@ $(document).ready(function(){
 
     deleteIcons();
 
+
+    document.addEventListener("click", function (e) {
+        if(!!!e.target.closest(".basketicon")){
+            if (!$(".chek-card-box").hasClass("d-none")) {
+                $(".chek-card-box").addClass("d-none")
+            }
+        }
+    })
 })
