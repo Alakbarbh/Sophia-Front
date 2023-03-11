@@ -5,18 +5,25 @@
 }
 
 #overlay {
-    position: fixed; /* Sit on top of the page content */
-    display: none; /* Hidden by default */
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
+    position: fixed;
+    /* Sit on top of the page content */
+    display: none;
+    /* Hidden by default */
+    width: 100%;
+    /* Full width (cover the whole page) */
+    height: 100%;
+    /* Full height (cover the whole page) */
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
-  }
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Black background with opacity */
+    z-index: 2;
+    /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer;
+    /* Add a pointer on hover */
+}
 
 
 #up-menu {
@@ -511,7 +518,7 @@
 
     }
 
-    .spCard-dropdown {
+    .chek-card-box {
 
         position: absolute;
         padding-top: 3px;
@@ -530,7 +537,7 @@
             text-decoration: none;
 
             p {
-                top: 14px;
+                top: 5px;
                 position: relative;
                 color: #444;
                 font-size: 14px;
@@ -538,15 +545,57 @@
             }
         }
 
-        .count {
 
-            bottom: 65px;
-            left: 180px;
-            position: absolute;
-            color: #444;
-            font-size: 14px;
-            font-weight: 500;
+        .check-card {
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
+
+        .product-detail {
+            display: flex;
+            justify-content: space-between;
+            padding: 7px;
+
+            .text {
+                p {
+                    font-weight: 500;
+                    font-size: 18px;
+                    font-family: Roboto, Arial, Helvetica, sans-serif;
+                }
+
+                span {
+                    color: #777;
+                    font-size: 15px;
+                    margin-top: 5px;
+                    display: block;
+                }
+            }
+
+            .icon {
+                i {
+                    color: #c3c3c3;
+                    font-size: 17px;
+                    margin-top: 8px;
+                }
+
+            }
+        }
+
+        .subtotal {
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            span {
+                font-weight: 600;
+                font-size: 18px;
+            }
+        }
+
+
 
         .alert {
             height: 1px;
@@ -554,6 +603,9 @@
             left: 26px;
             bottom: 12px;
         }
+
+
+
 
     }
 
@@ -641,7 +693,6 @@
 
     }
 
-    .homee {}
 
     .home {
         margin-left: 120px;
@@ -673,7 +724,7 @@
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             margin-left: 20px;
 
-            .homes {}
+      
 
             .abouts {
                 margin-top: 15px;
@@ -954,7 +1005,7 @@
                 font-size: 13px;
                 font-weight: bolder;
 
-                span {}
+               
             }
 
             .back {
@@ -1000,7 +1051,6 @@
                 font-size: 13px;
                 font-weight: bolder;
 
-                span {}
             }
 
             .call {
@@ -1184,7 +1234,7 @@
 
     }
 
-    .moddal1{
+    .moddal1 {
         position: fixed;
         top: 0;
         left: 0;
@@ -1227,7 +1277,8 @@
                 border: 1px solid;
                 border-radius: 50%;
                 background-color: red;
-                i{
+
+                i {
                     padding-left: 12px;
                     width: 50px;
                 }
@@ -1333,6 +1384,7 @@
 
                 .minus {
                     cursor: pointer;
+
                     p {
                         font-size: 50px;
                         margin-top: -26px;
@@ -1348,6 +1400,7 @@
 
                 .plus {
                     cursor: pointer;
+
                     p {
                         margin-left: 10px;
                         font-size: 35px;
@@ -1355,15 +1408,19 @@
                     }
                 }
             }
-            .icons{
+
+            .icons {
                 display: flex;
                 margin-left: 165px;
                 gap: 15px;
-                .icon1{
+
+                .icon1 {
                     cursor: pointer;
                     color: rgb(140, 139, 139);
                 }
-            }   .icon2{
+            }
+
+            .icon2 {
                 cursor: pointer;
                 color: rgb(140, 139, 139);
             }
@@ -1518,7 +1575,7 @@
 
     }
 
-    .moddal2{
+    .moddal2 {
         position: fixed;
         top: 0;
         left: 0;
@@ -1538,6 +1595,7 @@
         left: 20%;
         background-color: rgb(255, 251, 251);
         position: fixed;
+
         .img {
 
             img {
@@ -1558,7 +1616,8 @@
                 border: 1px solid;
                 border-radius: 50%;
                 background-color: red;
-                i{
+
+                i {
                     padding-left: 12px;
                     width: 50px;
                 }
@@ -1664,6 +1723,7 @@
 
                 .minus {
                     cursor: pointer;
+
                     p {
                         font-size: 50px;
                         margin-top: -26px;
@@ -1679,6 +1739,7 @@
 
                 .plus {
                     cursor: pointer;
+
                     p {
                         margin-left: 10px;
                         font-size: 35px;
@@ -1686,15 +1747,19 @@
                     }
                 }
             }
-            .icons{
+
+            .icons {
                 display: flex;
                 margin-left: 165px;
                 gap: 15px;
-                .icon1{
+
+                .icon1 {
                     cursor: pointer;
                     color: rgb(140, 139, 139);
                 }
-            }   .icon2{
+            }
+
+            .icon2 {
                 cursor: pointer;
                 color: rgb(140, 139, 139);
             }
@@ -1849,7 +1914,7 @@
 
     }
 
-    .moddal3{
+    .moddal3 {
         position: fixed;
         top: 0;
         left: 0;
@@ -1891,7 +1956,8 @@
                 border: 1px solid;
                 border-radius: 50%;
                 background-color: red;
-                i{
+
+                i {
                     padding-left: 12px;
                     width: 50px;
                 }
@@ -1997,6 +2063,7 @@
 
                 .minus {
                     cursor: pointer;
+
                     p {
                         font-size: 50px;
                         margin-top: -26px;
@@ -2011,6 +2078,7 @@
 
                 .plus {
                     cursor: pointer;
+
                     p {
                         margin-left: 10px;
                         font-size: 35px;
@@ -2018,15 +2086,19 @@
                     }
                 }
             }
-            .icons{
+
+            .icons {
                 display: flex;
                 margin-left: 165px;
                 gap: 15px;
-                .icon1{
+
+                .icon1 {
                     cursor: pointer;
                     color: rgb(140, 139, 139);
                 }
-            }   .icon2{
+            }
+
+            .icon2 {
                 cursor: pointer;
                 color: rgb(140, 139, 139);
             }
@@ -2183,7 +2255,7 @@
     }
 
 
-    .moddal4{
+    .moddal4 {
         position: fixed;
         top: 0;
         left: 0;
@@ -2223,7 +2295,8 @@
                 border: 1px solid;
                 border-radius: 50%;
                 background-color: red;
-                i{
+
+                i {
                     padding-left: 12px;
                     width: 50px;
                 }
@@ -2329,6 +2402,7 @@
 
                 .minus {
                     cursor: pointer;
+
                     p {
                         font-size: 50px;
                         margin-top: -26px;
@@ -2343,6 +2417,7 @@
 
                 .plus {
                     cursor: pointer;
+
                     p {
                         margin-left: 10px;
                         font-size: 35px;
@@ -2350,15 +2425,19 @@
                     }
                 }
             }
-            .icons{
+
+            .icons {
                 display: flex;
                 margin-left: 165px;
                 gap: 15px;
-                .icon1{
+
+                .icon1 {
                     cursor: pointer;
                     color: rgb(140, 139, 139);
                 }
-            }   .icon2{
+            }
+
+            .icon2 {
                 cursor: pointer;
                 color: rgb(140, 139, 139);
             }
@@ -2515,7 +2594,7 @@
     }
 
 
-    .moddal5{
+    .moddal5 {
         position: fixed;
         top: 0;
         left: 0;
@@ -2557,12 +2636,14 @@
                 border: 1px solid;
                 border-radius: 50%;
                 background-color: red;
-                i{
+
+                i {
                     padding-left: 12px;
                     width: 50px;
                 }
             }
         }
+
         .text1 {
             h2 {
                 font-size: 40px;
@@ -2662,6 +2743,7 @@
 
                 .minus {
                     cursor: pointer;
+
                     p {
                         font-size: 50px;
                         margin-top: -26px;
@@ -2676,6 +2758,7 @@
 
                 .plus {
                     cursor: pointer;
+
                     p {
                         margin-left: 10px;
                         font-size: 35px;
@@ -2683,15 +2766,19 @@
                     }
                 }
             }
-            .icons{
+
+            .icons {
                 display: flex;
                 margin-left: 165px;
                 gap: 15px;
-                .icon1{
+
+                .icon1 {
                     cursor: pointer;
                     color: rgb(140, 139, 139);
                 }
-            }   .icon2{
+            }
+
+            .icon2 {
                 cursor: pointer;
                 color: rgb(140, 139, 139);
             }
@@ -2848,7 +2935,7 @@
     }
 
 
-    .moddal6{
+    .moddal6 {
         position: fixed;
         top: 0;
         left: 0;
@@ -2889,7 +2976,8 @@
                 border: 1px solid;
                 border-radius: 50%;
                 background-color: red;
-                i{
+
+                i {
                     padding-left: 12px;
                     width: 50px;
                 }
@@ -2995,6 +3083,7 @@
 
                 .minus {
                     cursor: pointer;
+
                     p {
                         font-size: 50px;
                         margin-top: -26px;
@@ -3009,6 +3098,7 @@
 
                 .plus {
                     cursor: pointer;
+
                     p {
                         margin-left: 10px;
                         font-size: 35px;
@@ -3016,15 +3106,19 @@
                     }
                 }
             }
-            .icons{
+
+            .icons {
                 display: flex;
                 margin-left: 165px;
                 gap: 15px;
-                .icon1{
+
+                .icon1 {
                     cursor: pointer;
                     color: rgb(140, 139, 139);
                 }
-            }   .icon2{
+            }
+
+            .icon2 {
                 cursor: pointer;
                 color: rgb(140, 139, 139);
             }
@@ -3181,7 +3275,7 @@
     }
 
 
-    .moddal7{
+    .moddal7 {
         position: fixed;
         top: 0;
         left: 0;
@@ -3222,7 +3316,8 @@
                 border: 1px solid;
                 border-radius: 50%;
                 background-color: red;
-                i{
+
+                i {
                     padding-left: 12px;
                     width: 50px;
                 }
@@ -3328,6 +3423,7 @@
 
                 .minus {
                     cursor: pointer;
+
                     p {
                         font-size: 50px;
                         margin-top: -26px;
@@ -3342,6 +3438,7 @@
 
                 .plus {
                     cursor: pointer;
+
                     p {
                         margin-left: 10px;
                         font-size: 35px;
@@ -3349,15 +3446,19 @@
                     }
                 }
             }
-            .icons{
+
+            .icons {
                 display: flex;
                 margin-left: 165px;
                 gap: 15px;
-                .icon1{
+
+                .icon1 {
                     cursor: pointer;
                     color: rgb(140, 139, 139);
                 }
-            }   .icon2{
+            }
+
+            .icon2 {
                 cursor: pointer;
                 color: rgb(140, 139, 139);
             }
@@ -3513,7 +3614,7 @@
     }
 
 
-    .moddal8{
+    .moddal8 {
         position: fixed;
         top: 0;
         left: 0;
@@ -3524,7 +3625,7 @@
     }
 
     .modal8 {
-        
+
         display: flex;
         width: 900px;
         height: 550px;
@@ -3554,7 +3655,8 @@
                 border: 1px solid;
                 border-radius: 50%;
                 background-color: red;
-                i{
+
+                i {
                     padding-left: 12px;
                     width: 50px;
                 }
@@ -3660,6 +3762,7 @@
 
                 .minus {
                     cursor: pointer;
+
                     p {
                         font-size: 50px;
                         margin-top: -26px;
@@ -3674,6 +3777,7 @@
 
                 .plus {
                     cursor: pointer;
+
                     p {
                         margin-left: 10px;
                         font-size: 35px;
@@ -3681,15 +3785,19 @@
                     }
                 }
             }
-            .icons{
+
+            .icons {
                 display: flex;
                 margin-left: 165px;
                 gap: 15px;
-                .icon1{
+
+                .icon1 {
                     cursor: pointer;
                     color: rgb(140, 139, 139);
                 }
-            }   .icon2{
+            }
+
+            .icon2 {
                 cursor: pointer;
                 color: rgb(140, 139, 139);
             }
@@ -3704,9 +3812,464 @@
 
 
 
+$color-white: #ffffff;
+$color-light: #f4f4f4;
+$color-blue-gray: #9194a1;
+$color-blue-dark: #252b46;
+$color-red-light: #fa5757;
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: $color-blue-dark;
+    background: $color-white;
+}
+
+
+
+.title {
+    font-family: inherit;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: inherit;
+    color: $color-blue-dark;
+    text-transform: capitalize;
+}
+
+.paragraph {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: inherit;
+    max-width: 100%;
+    margin-top: 0.5rem;
+    color: $color-blue-gray;
+}
+
+.main {
+    span {
+        color: #736c6c;
+    }
+
+    .tab {
+        width: 100%;
+        height: auto;
+        padding: 3rem 0;
+
+        &-menu {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+            border-bottom: 1.3px solid darken($color-light, 10);
+            transition: all 0.3s ease;
+
+            &-link {
+                position: relative;
+                overflow: hidden;
+                font-family: inherit;
+                font-size: 1rem;
+                font-weight: 600;
+                line-height: inherit;
+                cursor: pointer;
+                width: 16%;
+                height: auto;
+                padding: 1rem 0;
+                border-bottom: 2.5px solid transparent;
+                color: $color-blue-gray;
+                background: $color-white;
+                transition: all 0.3s ease;
+
+                &::before {
+                    position: absolute;
+                    content: "";
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: auto;
+                    z-index: 2;
+                }
+
+                &.is-active {
+                    bottom: 0px;
+                    z-index: 0;
+                    overflow: hidden;
+                    border-bottom: 2.5px solid $color-red-light;
+                    color: $color-blue-dark;
+                    background: $color-white;
+                }
+            }
+        }
+
+        &-bar {
+            padding: 2.5rem 0;
+            overflow: hidden;
+            background: $color-white;
+
+            &-content {
+                display: none;
+                width: 100%;
+                min-height: 10rem;
+                transition: all 0.3s ease;
+
+                &.is-active {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+.product-card {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+    border-radius: 5px;
+    &:hover{
+        .icons{
+            display: flex;
+        }
+    }
+
+    .img-area {
+
+        display: flex;
+        justify-content: center;
+
+        a {
+            width: 70%;
+            display: block;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .icons {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 100px;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        display: none;
+        i {
+            font-size: 20px;
+            cursor: pointer;
+            &:hover {
+                color: #EF6C00;
+                transition: all 0.4s;
+            }
+        }
+        .added{
+            color: #EF6C00;
+        }
+    }
+
+    .card-text {
+        margin: 35px 0 0 20px;
+
+        span {
+            color: gray;
+            font-size: 14px;
+        }
+
+        h4 {
+            font-size: 18px;
+            text-transform: capitalize;
+            line-height: 1;
+        }
+    }
+
+    .card-footer {
+        display: flex;
+        justify-content: space-between;
+        margin: 13px 20px;
+
+        .star-icons {
+            color: orange;
+            font-size: 14px;
+        }
+
+        .card-price {
+            color: #000000a3;
+            font-size: 20px;
+        }
+
+    }
+
+
+    .add-btn {
+        margin: 13px 20px;
+
+        button {
+            border: none;
+            background-color: #EF6C00;
+            color: white;
+            height: 45px;
+            width: 100%;
+            margin-bottom: 15px;
+            font-size: 15px;
+
+            &:hover {
+                border: 3px solid #EF6C00;
+                background-color: white;
+                color: #EF6C00;
+                transition: all 0.5s;
+
+                i {
+                    color: #EF6C00;
+                }
+            }
+
+            i {
+                color: white;
+
+            }
+        }
+    }
+
+
+
+    // .slick-arrow.slick-hidden {
+    //     display: block !important;
+
+    // }
+
+
+
+
+}
+
+
+
+
+
+
+.moddal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+
+}
+
+
+
+.modall {
+    display: flex;
+    width: 900px;
+    height: 550px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    top: 10%;
+    left: 20%;
+    background-color: rgb(255, 251, 251);
+    position: fixed;
+
+    .img {
+
+        img {
+            width: 400px;
+            margin-top: 60px;
+            margin-left: 20px;
+        }
+    }
+
+    .iconca {
+        margin-left: 411px;
+        margin-top: -27px;
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 40px;
+            border: 1px solid;
+            border-radius: 50%;
+            background-color: red;
+            i{
+                padding-left: 12px;
+                width: 50px;
+            }
+        }
+    }
+
+    .text1 {
+        h2 {
+            font-size: 40px;
+        }
+    }
+
+    .texts {
+        display: flex;
+
+        .price1 {
+            del {
+                font-size: 17px;
+                font-weight: bold;
+                color: rgb(140, 139, 139);
+                text-decoration: line-through;
+            }
+        }
+
+        .price2 {
+            p {
+                color: red;
+                font-size: 25px;
+                font-weight: bolder;
+                margin-left: 10px;
+                margin-top: -8px;
+            }
+        }
+    }
+
+    .text2 {
+
+        p {
+            font-size: 30px;
+            margin-top: -15px;
+        }
+
+    }
+
+    .border {
+        width: 348px;
+        border: 1px dashed #f6f6f6;
+        margin-top: -5px;
+    }
+
+    .text3 {
+        font-weight: bolder;
+
+        p {
+            margin-top: 7px;
+        }
+    }
+
+    .text4 {
+
+        p {
+            width: 350px;
+            margin-top: -10px;
+        }
+    }
+
+    .border {
+        border: 1px dashed #f6f6f6;
+    }
+
+    .text5 {
+        display: flex;
+        margin-top: 10px;
+
+        .text1 {
+
+            p {
+                color: rgb(140, 139, 139);
+            }
+        }
+
+        .text2 {
+
+            p {
+                font-size: 15px;
+                margin-top: 1px;
+                margin-left: 5px;
+            }
+        }
+    }
+
+    .text6 {
+        p {
+            color: rgb(140, 139, 139);
+            margin-top: -10px;
+        }
+    }
+
+    .input-icon {
+        display: flex;
+
+        .inputs {
+            display: flex;
+
+            .minus {
+                cursor: pointer;
+                p {
+                    font-size: 50px;
+                    margin-top: -26px;
+                }
+            }
+
+            input {
+                height: 30px;
+                width: 70px;
+                margin-left: 10px;
+                text-align: center;
+            }
+
+            .plus {
+                cursor: pointer;
+                p {
+                    margin-left: 10px;
+                    font-size: 35px;
+                    margin-top: -14px;
+                }
+            }
+        }
+        .icons{
+            display: flex;
+            margin-left: 165px;
+            gap: 15px;
+            .icon1{
+                cursor: pointer;
+                color: rgb(140, 139, 139);
+            }
+        }   .icon2{
+            cursor: pointer;
+            color: rgb(140, 139, 139);
+        }
+    }
+
+}
+
+
+
+
+
+
+
 
 #procs {
-    margin-top: 60px;
+    
 
     .newlaptops {
 
@@ -3746,7 +4309,7 @@
             img {
                 width: 450px;
                 height: 450px;
-                margin-left: 180px;
+                margin-left: 140px;
             }
         }
 
@@ -3799,10 +4362,7 @@
                         }
                     }
 
-                    .text4 {
-
-                        p {}
-                    }
+                  
 
                     .text5 {
 
@@ -3831,7 +4391,7 @@
         margin-top: 15px;
         background-image: url(../image/proc5.png);
         background-size: cover;
-        background-position: 55%;
+        background-position: 65%;
 
         .cachimage {
             display: flex;
@@ -3958,11 +4518,7 @@
                         }
                     }
 
-                    .text4 {
-
-                        p {}
-                    }
-
+                    
                     .text5 {
 
                         p {
@@ -4085,9 +4641,7 @@
                 margin-top: 70px;
 
 
-                a {
-                    img {}
-                }
+             
 
                 .text1 {
                     font-size: 17px;
@@ -4133,7 +4687,6 @@
                     font-weight: bold;
                 }
 
-                p {}
 
                 input {
                     width: 300px;

@@ -148,22 +148,26 @@
 
                                     </div>
 
-                                    <div class="spCard-dropdown d-none">
-                                        <table class="table">
-                                            <thead>
-                                                <tr>
-                                                    <th scope="col"><a href="#">
-                                                            <p>CHECK CARD</p>
-                                                        </a>
-                                                        <p class="count">0 ITEM</p>
-                                                    </th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-
-                                            </tbody>
-                                        </table>
-                                        <p class="alert">Please add product</p>
+                                    <div class="chek-card-box d-none">
+                                        <div class="check-card">
+                                            <a href="basket.html">
+                                                <p>CHECK CARD</p>
+                                            </a>
+                    
+                                            <p class="count">0 ITEM</p>
+                                        </div>
+                                        <div class="border"></div>
+                
+                                        <div class="chek-card-item d-none">
+                    
+                    
+                                        </div>
+                                        <div class="border check-border"></div>
+                                        <div class="subtotal d-none ">
+                                            <p>Subtotal:</p>
+                                            <span></span>
+                                        </div>
+                                        <p class="alert ">Please add product</p>
                                     </div>
                                 </div>
 
@@ -258,36 +262,36 @@
 
     <main>
 
-        <section id="breadcrumb-section">
-            <div class="container">
-                <div class="row ">
-                    <div class="carts">
-
-                        <div class="left">
-                            <h4>CART</h4>
-                        </div>
-
-                        <div class="right">
-                            <ul>
-                                <li><a href="">HOME</a></li>
-                                <li><a href="">/</a></li>
-                                <li><a href="">CART</a></li>
-
-                            </ul>
-
-                        </div>
-                    </div>
-
+        <section id="main">
+            <div class="about">
+                <div class="about-us">
+                    <p>CARD</p>
                 </div>
+                <div class="home-about">
+                    <div class="home">
+                        <a href="home.html">
+                            <p>HOME </p>
+                        </a>
+                    </div>
+                    <div class="drop">
+                        <p>/</p>
+                    </div>
+                    <div class="about">
+                        <p>CARD</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border">
 
             </div>
-
-
-
         </section>
+
+
+
         <section id="products">
 
             <div class="container">
+
                 <div class="basket-products">
                     <table class="table">
                         <thead>
@@ -299,35 +303,43 @@
                                 <th scope="col">Total</th>
                                 <th scope="col">Action</th>
                             </tr>
+
                         </thead>
                         <tbody>
-                            <tr>
-                                <td><img src="./assets/image/headphone1.png" alt=""></td>
-                                <td><a href="">Salam</a></td>
-                                <td>5555</td>
-                                <td>
-                                    <button><i class="fa-solid fa-minus"></i></button>
-                                    <input type="text" disabled>
-                                    <button><i class="fa-solid fa-plus"></i></button>
-                                </td>
-                                <td class="price">266.00</td>
-                                <td><i class="fa-solid fa-x"></i></td>
-                            </tr>
-                            <tr>
-                                <td><button class="btn btn-primary shop"><a href="home.html">Continue shopping</a></button></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td><span>Grand total:</span></td>
-                                <td><button class="btn btn-primary check"><a href="checkout.html"> Proceed To Checkout</a></button></td>
 
-                            </tr>
+                            
                         </tbody>
+                        <tr>
+                            <td><button class="btn btn-primary shop"><a href="home.html">Continue shopping</a></button></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><span>Grand total:</span></td>
+                            <td><button class="btn btn-primary check">Proceed To Checkout</button></td>
+
+                        </tr>
                     </table>
                 </div>
+
+                <div class="show-alert d-none">
+                    <div class="alert">
+                        <button class="btn btn-danger btn-red">YOU HAVE NO ITEMS IN YOUR SHOPPING CART.</button>
+
+                    </div>
+                    <div class="button-shop">
+                        <button class="btn btn-primary btn-orange">Continue shopping</button>
+                    </div>
+                </div>
+
+
             </div>
         </section>
+        
+
     </main>
+
+
+
 
     <footer>
         <section id="footer">
